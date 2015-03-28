@@ -2,7 +2,8 @@
 
 --------
 
-Written by Sam Claassens and Daniel Gawryjolek. 
+Originally written by Sam Claassens and Daniel Gawryjolek.
+Sam - Added in some extra stuff to make it support Oculus Rift DK2 (Runtime version > v0.43). 
 
 --------
 
