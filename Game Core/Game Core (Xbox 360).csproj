@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{679D0C0E-F528-47F3-9239-B0F6082D364B}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Xbox 360</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZitaAsteria</RootNamespace>
+    <AssemblyName>Game Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Xbox 360</XnaPlatform>
+    <XnaCrossPlatformGroupID>54d713f7-3298-4ec9-9872-9b88e1523555</XnaCrossPlatformGroupID>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <XnaUpgrade>
+    </XnaUpgrade>
+    <XnaOutputType>Library</XnaOutputType>
+    <XnaProfile>HiDef</XnaProfile>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Xbox 360' ">
+    <OutputPath>bin\Xbox 360\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE;XBOX;XBOX360</DefineConstants>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Xbox 360' ">
+    <OutputPath>bin\Xbox 360\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE;XBOX;XBOX360</DefineConstants>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharedContent\Shared Content %28Xbox 360%29.csproj">
+      <Project>{4e12db6f-24f1-4c54-836d-d8912e3fd6c1}</Project>
+      <Name>Shared Content %28Xbox 360%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TemplateCore\TemplateCore %28Xbox 360%29.csproj">
+      <Project>{566D9EF0-9BC3-4571-ACC1-2AA0DA39CE63}</Project>
+      <Name>TemplateCore %28Xbox 360%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CampaignManagement\Campaign.cs" />
+    <Compile Include="CampaignManagement\CampaignManager.cs" />
+    <Compile Include="CampaignManagement\CampaignMap.cs" />
+    <Compile Include="Configuration\GameConfigurationManager.cs" />
+    <Compile Include="GameClass.cs" />
+    <Compile Include="MenuSystem\MenuContainer.cs" />
+    <Compile Include="MenuSystem\MenuSceneLocations.cs" />
+    <Compile Include="MenuSystem\MenuSystemScene.cs" />
+    <Compile Include="MenuSystem\Scene\Shaders\BlackoutShader.cs" />
+    <Compile Include="MenuSystem\Scene\Shaders\CrepuscularRaysShader.cs" />
+    <Compile Include="MenuSystem\Scene\Shaders\MotionBlurShader.cs" />
+    <Compile Include="MenuSystem\World\Planet.cs" />
+    <Compile Include="MenuSystem\World\Satellite.cs" />
+    <Compile Include="MenuSystem\World\SceneObject.cs" />
+    <Compile Include="MenuSystem\World\Ships\ApproachShip.cs" />
+    <Compile Include="MenuSystem\World\Ships\OrbitingShip.cs" />
+    <Compile Include="MenuSystem\World\Stars.cs" />
+    <Compile Include="MenuSystem\World\Sun.cs" />
+    <Compile Include="ObjectManagement\ObjectPoolProfile.cs" />
+    <Compile Include="PlayerIndexEqualityComparer.cs" />
+    <Compile Include="Scene\OrbitalCamera.cs" />
+    <Compile Include="Scene\PlayerCamera.cs" />
+    <Compile Include="Scene\ProfileEntry.cs" />
+    <Compile Include="Scene\SatelliteCamera.cs" />
+    <Compile Include="UI\ImageMenuItem.cs" />
+    <Compile Include="UI\ITypedTextItem.cs" />
+    <Compile Include="UI\MenuItem.cs" />
+    <Compile Include="UI\ObjectiveItem.cs" />
+    <Compile Include="UI\TextIconMenuItem.cs" />
+    <Compile Include="UI\TextMenuItem.cs" />
+    <Compile Include="UI\TextValueMenuItem.cs" />
+    <Compile Include="UI\TypedTextLabelItem.cs" />
+    <Compile Include="UI\TypedTextMenuItem.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionRotateRunTowards.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionTeamUp.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionSuicideCharge.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputTargetNotInLOS.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputTargetInLOS.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputSimilarNPCNotNearby.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputSimilarNPCNearby.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputNotAimingAtPlayer.cs" />
+    <Compile Include="ObjectManagement\IObjectPool.cs" />
+    <Compile Include="ObjectManagement\ObjectManager.cs" />
+    <Compile Include="ObjectManagement\ObjectPool.cs" />
+    <Compile Include="World\Buildings\Artistic\ArtShip1.cs" />
+    <Compile Include="World\Buildings\Artistic\ArtShip2.cs" />
+    <Compile Include="World\Buildings\Artistic\PowerStation.cs" />
+    <Compile Include="World\Buildings\Artistic\RadioTower.cs" />
+    <Compile Include="World\Buildings\Supplies\ArmourBuilding.cs" />
+    <Compile Include="World\Buildings\Supplies\AmmoBuilding.cs" />
+    <Compile Include="World\Buildings\Supplies\HealthBuilding.cs" />
+    <Compile Include="World\Buildings\Supplies\RechargeMonitor.cs" />
+    <Compile Include="World\Buildings\Turrets\AbstractTurretHead.cs" />
+    <Compile Include="World\Buildings\Turrets\IonCannonTurret\IonCannonTurret.cs" />
+    <Compile Include="World\Buildings\Turrets\Minigun\SmartMinigunHead.cs" />
+    <Compile Include="World\Buildings\Turrets\Minigun\SmartMinigunTurret.cs" />
+    <Compile Include="World\Buildings\Turrets\Minigun\ParticleGunTurret.cs" />
+    <Compile Include="World\Buildings\Turrets\RailgunTurret\HyperRailgunTurret.cs" />
+    <Compile Include="World\Buildings\Turrets\RailgunTurret\RailgunHead.cs" />
+    <Compile Include="World\Buildings\Turrets\RailgunTurret\RailgunTurret.cs" />
+    <Compile Include="World\Buildings\Turrets\RocketTurret\HyperRocketTurret.cs" />
+    <Compile Include="World\Characters\Animation\AnimationSequenceCompleteEventArgs.cs" />
+    <Compile Include="World\Characters\Animation\AnimationManager.cs" />
+    <Compile Include="World\Characters\Character3D.cs" />
+    <Compile Include="World\Characters\HUD\ArmourBarItem.cs" />
+    <Compile Include="World\Characters\HUD\HealthBarItem.cs" />
+    <Compile Include="World\Characters\HUD\PlayerOffScreenItem.cs" />
+    <Compile Include="World\Characters\PlayerMenu\BuildingHUDMenuItem.cs" />
+    <Compile Include="World\Characters\PlayerMenu\HUDBar.cs" />
+    <Compile Include="World\Characters\PlayerMenu\HUDMenuComponent.cs" />
+    <Compile Include="World\Characters\PlayerMenu\HUDMenuItem.cs" />
+    <Compile Include="World\Characters\PlayerMenu\HUDMenuPlate.cs" />
+    <Compile Include="World\Characters\PlayerMenu\NavigationOptions.cs" />
+    <Compile Include="World\Characters\PlayerMenu\PlayerMenu.cs" />
+    <Compile Include="World\Characters\PlayerMenu\PowerUpHUDMenuItem.cs" />
+    <Compile Include="World\Characters\PlayerMenu\WeaponHUDMenuItem.cs" />
+    <Compile Include="World\Characters\Players\AbstractPlayer.cs" />
+    <Compile Include="World\Characters\Players\PlayerHurtEventArgs.cs" />
+    <Compile Include="World\Characters\Players\PlayerMotionStates.cs" />
+    <Compile Include="World\Characters\Players\PlayerGamePad.cs" />
+    <Compile Include="World\Characters\Players\PlayerDownOverlay.cs" />
+    <Compile Include="World\Characters\Players\PlayerState.cs" />
+    <Compile Include="World\Characters\Players\PlayerStateManager.cs" />
+    <Compile Include="World\Characters\Players\Player_Template.cs" />
+    <Compile Include="World\Characters\Players\PlayerWeaponStates.cs" />
+    <Compile Include="World\Characters\Scuttlebug Drones\ScuttlebugMonster.cs" />
+    <Compile Include="World\Characters\Scuttlebug Warriors\EnragedScuttlebugWarrior.cs" />
+    <Compile Include="World\Characters\Tank\Tank.cs" />
+    <Compile Include="World\Characters\WeaponEnum.cs" />
+    <Compile Include="World\Characters\WeaponFactory.cs" />
+    <Compile Include="World\Effects\AbstractCompundWeaponEffect.cs" />
+    <Compile Include="World\Effects\Buildings\HealthFlare.cs" />
+    <Compile Include="World\Effects\DPSF\BioToxinTrailPS.cs" />
+    <Compile Include="World\Effects\DPSF\BloodSprayPS.cs" />
+    <Compile Include="World\Effects\DPSF\DebrisExplosion\DebrisTrailPS.cs" />
+    <Compile Include="World\Effects\DPSF\MuzzleFlashPS.cs" />
+    <Compile Include="World\Effects\DPSF\FlameShockwavePS.cs" />
+    <Compile Include="World\Effects\DPSF\ParticleGunProjectilePS.cs" />
+    <Compile Include="World\Effects\DPSF\KreestSplatterPS.cs" />
+    <Compile Include="World\Effects\DPSF\PortalUpwardPS.cs" />
+    <Compile Include="World\Effects\DPSF\WallDebrisSprayPS.cs" />
+    <Compile Include="World\Effects\DPSF\ImpactFirePS.cs" />
+    <Compile Include="World\Effects\DPSF\FirePS.cs" />
+    <Compile Include="World\Effects\DPSF\NuclearDetonationPS.cs" />
+    <Compile Include="World\Effects\DPSF\SmokePuffPS.cs" />
+    <Compile Include="World\Effects\Environmental\DiurnalCycleEffect.cs" />
+    <Compile Include="World\Effects\Explosions\DebrisExplosion.cs" />
+    <Compile Include="World\Effects\Explosions\PowerupFlare.cs" />
+    <Compile Include="World\Effects\Explosions\Portal.cs" />
+    <Compile Include="World\Effects\Explosions\IncendiaryExplosion.cs" />
+    <Compile Include="GameClass_Draw.cs" />
+    <Compile Include="GameClass_Initialisation.cs" />
+    <Compile Include="GameClass_Updates.cs" />
+    <Compile Include="Configuration\GameConfiguration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Scene\CameraShaker.cs" />
+    <Compile Include="Scene\FrameRateProfile.cs" />
+    <Compile Include="Scene\ICamera.cs" />
+    <Compile Include="Scene\MusicManager.cs" />
+    <Compile Include="Scene\SoundEffectsMgr.cs" />
+    <Compile Include="UI\IconItem.cs" />
+    <Compile Include="UI\IMenuItem.cs" />
+    <Compile Include="UI\LabelItem.cs" />
+    <Compile Include="UI\Menu.cs" />
+    <Compile Include="UI\MenuController.cs" />
+    <Compile Include="UI\PlayerSelectionItem.cs" />
+    <Compile Include="WorldContainer.cs" />
+    <Compile Include="World\AI\ANN\ANNActionManager.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionRunForward.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionRunBackward.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionStrafeLeft.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionStrafeRight.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionFireWeapon.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionRetargetPlayer.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionRotateTowards.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionRotateAway.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionRoar.cs" />
+    <Compile Include="World\AI\ANN\ANNActions\ActionCharge.cs" />
+    <Compile Include="World\AI\ANN\ANNController.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputPlayerHealthArmourBelow.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputHealthArmourBelow.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputHealthArmourAbove.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputAimingAtPlayer.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputOtherPlayerNearer.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputOtherPlayerUsingBiohazard.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputPlayerInEngineeringMode.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputPlayerLookingAtMe.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputPlayerHealthArmourAbove.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputPlayerIsShooting.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputPlayerOutOfRange.cs" />
+    <Compile Include="World\AI\ANN\ANNInputs\InputPlayerInRange.cs" />
+    <Compile Include="World\AI\ProjectileAI.cs" />
+    <Compile Include="World\AI\SwarmAI.cs" />
+    <Compile Include="World\AI\Targeting.cs" />
+    <Compile Include="World\AI\TurretAI.cs" />
+    <Compile Include="World\BoundingBoxVisualizer.cs" />
+    <Compile Include="World\Buildings\AbstractBuilding.cs" />
+    <Compile Include="World\Buildings\Artistic\SphereBuilding.cs" />
+    <Compile Include="World\Buildings\Artistic\Targets\NoPrawnsTarget.cs" />
+    <Compile Include="World\Buildings\Artistic\Targets\LargeRoundTarget.cs" />
+    <Compile Include="World\Buildings\Artistic\Targets\MedRoundTarget.cs" />
+    <Compile Include="World\Buildings\Artistic\Targets\SmallRoundTarget.cs" />
+    <Compile Include="World\Buildings\ConcreteWall.cs" />
+    <Compile Include="World\Buildings\Turrets\AbstractTurret.cs" />
+    <Compile Include="World\Buildings\Burrows\ScuttlebugBurrow.cs" />
+    <Compile Include="World\Buildings\Artistic\Shipwreck1.cs" />
+    <Compile Include="World\Buildings\Turrets\Minigun\MinigunHead.cs" />
+    <Compile Include="World\Buildings\Turrets\Minigun\MinigunReticle.cs" />
+    <Compile Include="World\Buildings\Turrets\Minigun\MinigunTurret.cs" />
+    <Compile Include="World\Buildings\Turrets\RocketTurret\RocketHead.cs" />
+    <Compile Include="World\Buildings\Turrets\RocketTurret\RocketTurret.cs" />
+    <Compile Include="World\Characters\AlterEgo\AlterEgo.cs" />
+    <Compile Include="World\Characters\Character.cs" />
+    <Compile Include="World\Characters\NPC_ANN.cs" />
+    <Compile Include="World\Characters\NPC.cs" />
+    <Compile Include="World\Characters\HUD\BarItem.cs" />
+    <Compile Include="World\Characters\HUD\WeaponSelSingleItem.cs" />
+    <Compile Include="World\Characters\HUD\WeaponSelectionItem.cs" />
+    <Compile Include="World\Characters\HUD\GrenadesMinesItem.cs" />
+    <Compile Include="World\Characters\HUD\CurrentAmmoItem.cs" />
+    <Compile Include="World\Characters\HUD\HUDController.cs" />
+    <Compile Include="World\Characters\HUD\HUDItem.cs" />
+    <Compile Include="World\Characters\HUD\HUDMainWindow.cs" />
+    <Compile Include="World\Characters\HUD\PlayerHUD.cs" />
+    <Compile Include="World\Characters\Kreest\Kreest.cs" />
+    <Compile Include="World\Characters\Players\PlayerCharacter.cs" />
+    <Compile Include="World\Characters\Players\PlayerGamepadStyle.cs" />
+    <Compile Include="World\Characters\Scuttlebug Warriors\ScuttlebugWarrior.cs" />
+    <Compile Include="World\Characters\Scuttlebug Drones\Scuttlebug.cs" />
+    <Compile Include="World\Characters\NPCSwarm.cs" />
+    <Compile Include="World\Characters\Players\PlayerKeyboard.cs" />
+    <Compile Include="World\Effects\DPSF\FlareSparksPS.cs" />
+    <Compile Include="World\Effects\DPSF\RocketTrailPS.cs" />
+    <Compile Include="World\Effects\DPSF\FlareUpwardPS.cs" />
+    <Compile Include="World\Effects\DPSF\IONRayShockwavePS.cs" />
+    <Compile Include="World\Effects\DPSF\IONRayPS.cs" />
+    <Compile Include="World\Effects\DPSF\RailShockwavePS.cs" />
+    <Compile Include="World\Effects\DPSF\TrailPS.cs" />
+    <Compile Include="World\Effects\DPSF\WispDissipatePS.cs" />
+    <Compile Include="World\Effects\Explosions\Flare.cs" />
+    <Compile Include="World\Effects\Explosions\ImpactExplosion.cs" />
+    <Compile Include="World\Effects\Particle Systems\AbstractParticleSystem.cs" />
+    <Compile Include="World\Effects\Particle Systems\BigScuttleBugSplatEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\BioToxinTrailEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\BloodSplatterEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\BioToxinSplatterEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\KreestSplatterEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\MuzzleFlashEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Effects\Particle Systems\ParticleGunProjectileEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\ToxicSpitSplatterEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\ToxicSpitTrailEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\WallDebrisEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\FlameThrowerEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\GreenBloodSplatterEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\RageParticle.cs" />
+    <Compile Include="World\Effects\Particle Systems\RageParticleSystem.cs" />
+    <Compile Include="World\Effects\Particle Systems\RailTrailEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\RicochetEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\RocketTrailEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\ScuttleBugSplatEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\SmokePlumeEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\TrailEffect.cs" />
+    <Compile Include="World\Effects\Particle Systems\WispDissipateEffect.cs" />
+    <Compile Include="World\Effects\Screen Effects\CameraShakerEffect.cs" />
+    <Compile Include="World\Effects\Screen Effects\BackgroundGridEffect.cs" />
+    <Compile Include="World\Effects\Screen Effects\MotionBlurEffect.cs" />
+    <Compile Include="World\Effects\Explosions\HailMaryEffect.cs" />
+    <Compile Include="World\Effects\Screen Effects\NoiseFadeInOut.cs" />
+    <Compile Include="World\Effects\Weapons\IONRayTargetingSystem.cs" />
+    <Compile Include="World\Effects\Weapons\ShockWaveCompoundEffect.cs" />
+    <Compile Include="World\Effects\Weapons\IONRay.cs" />
+    <Compile Include="World\Effects\Explosions\MiniShockWaveDebris.cs" />
+    <Compile Include="World\Effects\Explosions\RailShockWave.cs" />
+    <Compile Include="World\Effects\Weapons\IONRayType.cs" />
+    <Compile Include="World\Items\Health Items\ArmourItem.cs" />
+    <Compile Include="World\Items\Health Items\LargeArmourItem.cs" />
+    <Compile Include="World\Items\Health Items\SmallArmourItem.cs" />
+    <Compile Include="World\Items\Health Items\LargeHealthItem.cs" />
+    <Compile Include="World\Items\Health Items\MediumHealthItem.cs" />
+    <Compile Include="World\Items\Health Items\SmallHealthItem.cs" />
+    <Compile Include="World\Items\Health Items\HealthItem.cs" />
+    <Compile Include="World\Items\Item.cs" />
+    <Compile Include="World\Items\Money Items\ZAR1MItem.cs" />
+    <Compile Include="World\Items\Money Items\ZAR50kItem.cs" />
+    <Compile Include="World\Items\Money Items\ZAR100kItem.cs" />
+    <Compile Include="World\Items\Money Items\ZAR20kItem.cs" />
+    <Compile Include="World\Items\Money Items\ZAR10kItem.cs" />
+    <Compile Include="World\Items\Money Items\MoneyItem.cs" />
+    <Compile Include="World\Items\Weapon Items\AirStrikeItem.cs" />
+    <Compile Include="World\Items\Weapon Items\BioHazardItem.cs" />
+    <Compile Include="World\Items\Weapon Items\AmmoItem.cs" />
+    <Compile Include="World\Items\Weapon Items\BioToxinCannonItem.cs" />
+    <Compile Include="World\Items\Power Items\HailMaryItem.cs" />
+    <Compile Include="World\Items\Weapon Items\GaussCannonItem.cs" />
+    <Compile Include="World\Items\Weapon Items\MachineGunItem.cs" />
+    <Compile Include="World\Items\Weapon Items\Minigun2Item.cs" />
+    <Compile Include="World\Items\Weapon Items\SMARTShotgunItem.cs" />
+    <Compile Include="World\Items\Weapon Items\SMARTRPGItem.cs" />
+    <Compile Include="World\Items\Weapon Items\SMARTRifleItem.cs" />
+    <Compile Include="World\Items\Weapon Items\SMARTMinigunItem.cs" />
+    <Compile Include="World\Items\Weapon Items\SMARTDestructorItem.cs" />
+    <Compile Include="World\Items\Weapon Items\ShotgunItem.cs" />
+    <Compile Include="World\Items\Weapon Items\RPGItem.cs" />
+    <Compile Include="World\Items\Weapon Items\PistolItem.cs" />
+    <Compile Include="World\Items\Weapon Items\ParticleGunItem.cs" />
+    <Compile Include="World\Items\Weapon Items\PainterItem.cs" />
+    <Compile Include="World\Items\Weapon Items\NukeItem.cs" />
+    <Compile Include="World\Items\Weapon Items\MineItem.cs" />
+    <Compile Include="World\Items\Weapon Items\LaserItem.cs" />
+    <Compile Include="World\Items\Weapon Items\IonCannonItem.cs" />
+    <Compile Include="World\Items\Weapon Items\GrenadeItem.cs" />
+    <Compile Include="World\Items\Weapon Items\DestructorItem.cs" />
+    <Compile Include="World\Items\Weapon Items\GluonGunItem.cs" />
+    <Compile Include="World\Items\Weapon Items\FlamerItem.cs" />
+    <Compile Include="World\Items\Weapon Items\WeaponItem.cs" />
+    <Compile Include="World\Items\Weapon Items\RifleItem.cs" />
+    <Compile Include="World\Level\Lighting\WorldLighting.cs" />
+    <Compile Include="World\Level\ShadowMap.cs" />
+    <Compile Include="World\Map\Enums\MapDifficulty.cs" />
+    <Compile Include="World\Map\Enums\MapGameType.cs" />
+    <Compile Include="World\Map\MapManager.cs" />
+    <Compile Include="World\Map\MapObjective.cs" />
+    <Compile Include="World\Map\Enums\MapType.cs" />
+    <Compile Include="World\Map\Map.cs" />
+    <Compile Include="World\Map\MapFile.cs" />
+    <Compile Include="World\Map\ObjectiveController.cs" />
+    <Compile Include="World\Map\ObjectivePointer.cs" />
+    <Compile Include="World\Map\Triggers\StartupGeneratorTrigger.cs" />
+    <Compile Include="World\Menu\ControllerMenu.cs" />
+    <Compile Include="World\Menu\IntroMenu.cs" />
+    <Compile Include="World\Menu\LoadingMenu.cs" />
+    <Compile Include="World\Menu\OptionsMenu.cs" />
+    <Compile Include="World\Menu\PlayerConnectionStatusItem.cs" />
+    <Compile Include="World\Menu\PlayerSelectionMenu.cs" />
+    <Compile Include="World\Menu\ScoresheetMenu.cs" />
+    <Compile Include="World\PowerUps\CloakPowerUp.cs" />
+    <Compile Include="World\PowerUps\EnergyBasedPowerUp.cs" />
+    <Compile Include="World\PowerUps\PowerUp.cs" />
+    <Compile Include="World\Scoresheet\AverageScoresheetColumn.cs" />
+    <Compile Include="World\Scoresheet\CalculatedScoresheetColumn.cs" />
+    <Compile Include="World\Scoresheet\Scoresheet.cs" />
+    <Compile Include="World\Map\Triggers\EndOfMapTrigger.cs" />
+    <Compile Include="World\Map\Triggers\ProximityTrigger.cs" />
+    <Compile Include="World\Menu\CampaignMapMenu.cs" />
+    <Compile Include="World\Menu\CampaignMenu.cs" />
+    <Compile Include="World\Menu\InGameMenu.cs" />
+    <Compile Include="World\Menu\MenuInfoMenu.cs" />
+    <Compile Include="World\Menu\ObjectivesMenu.cs" />
+    <Compile Include="World\Menu\StartMenu.cs" />
+    <Compile Include="World\Scoresheet\ScoresheetCell.cs" />
+    <Compile Include="World\Scoresheet\ScoresheetColumn.cs" />
+    <Compile Include="World\Scoresheet\ScoresheetColumns.cs" />
+    <Compile Include="World\Scoresheet\ScoresheetGrid.cs" />
+    <Compile Include="World\Scoresheet\ScoresheetPage.cs" />
+    <Compile Include="World\Scoresheet\ScoresheetGridRow.cs" />
+    <Compile Include="World\ShaderEffects\CameraStaticNoiseShader.cs" />
+    <Compile Include="World\ShaderEffects\BackgroundGridShader.cs" />
+    <Compile Include="World\ShaderEffects\MotionBlurShader.cs" />
+    <Compile Include="World\ShaderEffects\ShockWaveEffectShader.cs" />
+    <Compile Include="World\ShaderEffects\ParticleFlareShader.cs" />
+    <Compile Include="World\Spawnpoints\AlterEgoSpawnPoint.cs" />
+    <Compile Include="World\Spawnpoints\TankSpawnPoint.cs" />
+    <Compile Include="World\Spawnpoints\TricerSpawnPoint.cs" />
+    <Compile Include="World\Spawnpoints\GreaterScuttleBugSpawnPoint.cs" />
+    <Compile Include="World\TwoDRendering\Billboards\Billboard.cs" />
+    <Compile Include="World\TwoDRendering\Billboards\FlatBillboard.cs" />
+    <Compile Include="World\TwoDRendering\BillboardTypes.cs" />
+    <Compile Include="World\TwoDRendering\Line3D.cs" />
+    <Compile Include="World\TwoDRendering\TwoDRenderManager.cs" />
+    <Compile Include="World\Weapons\AssaultRifle.cs" />
+    <Compile Include="World\PhysicsCollisionType.cs" />
+    <Compile Include="World\Effects\AbstractCompoundEffect.cs" />
+    <Compile Include="World\Effects\AI\SmartBulletSwarmEffect.cs" />
+    <Compile Include="World\Effects\AI\SwarmEffect.cs" />
+    <Compile Include="World\Effects\AI\TurretAIEffect.cs" />
+    <Compile Include="World\Effects\DPSF\AtmosphericEffects\SandStorm.cs" />
+    <Compile Include="World\Effects\DPSF\AtmosphericEffects\SandStormPS.cs" />
+    <Compile Include="World\Effects\DPSF\AtmosphericEffects\SnowPS.cs" />
+    <Compile Include="World\Effects\DPSF\BioToxinSplatterPS.cs" />
+    <Compile Include="World\Effects\DPSF\FlameThrowerPS.cs" />
+    <Compile Include="World\Effects\DPSF\GreenBloodSprayPS.cs" />
+    <Compile Include="World\Effects\DPSF\RicochetPS.cs" />
+    <Compile Include="World\Effects\Explosions\SplashDamageUtility.cs" />
+    <Compile Include="World\Effects\DPSF\ScuttleBugSplatPS.cs" />
+    <Compile Include="World\Effects\Engineering_Mode\EngineeringOverlay.cs" />
+    <Compile Include="World\Effects\Explosions\AbstractExplosion.cs" />
+    <Compile Include="World\Effects\Explosions\BasicExplosionSprite.cs" />
+    <Compile Include="World\Effects\DPSF\ExplosionShockwavePS.cs" />
+    <Compile Include="World\Effects\DPSF\SmokePS.cs" />
+    <Compile Include="World\Effects\Screen Effects\AuraEffect.cs" />
+    <Compile Include="World\Effects\Screen Effects\FadeInOutEffect.cs" />
+    <Compile Include="World\Effects\Screen Effects\StaticNoiseEffect.cs" />
+    <Compile Include="World\Effects\Screen Effects\EclipseEffect.cs" />
+    <Compile Include="World\Effects\Screen Effects\ExplosionFlash.cs" />
+    <Compile Include="World\Level\Decals\AbstractDecal.cs" />
+    <Compile Include="World\Level\Decals\TreeGroveDecal.cs" />
+    <Compile Include="World\Level\Collision Detection\CD_Node.cs" />
+    <Compile Include="World\Level\Collision Detection\CollisionController.cs" />
+    <Compile Include="World\Level\LevelGrid.cs" />
+    <Compile Include="World\Map\Triggers\AbstractTrigger.cs" />
+    <Compile Include="World\Map\Triggers\TimedTrigger.cs" />
+    <Compile Include="World\PhysicsWorldObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\ShaderEffects\AuraEffectShader.cs" />
+    <Compile Include="World\ShaderEffects\FadeInOutShader.cs" />
+    <Compile Include="World\ShaderEffects\StaticNoiseShader.cs" />
+    <Compile Include="World\ShaderEffects\EclipseEffectShader.cs" />
+    <Compile Include="World\ShaderEffects\ExplosionFlashShader.cs" />
+    <Compile Include="World\Effects\Explosions\ShockWaveDebris.cs" />
+    <Compile Include="World\Effects\Explosions\SmokePlume.cs" />
+    <Compile Include="World\Effects\Screen Effects\GrayScale.cs" />
+    <Compile Include="World\Effects\Screen Effects\NightVision.cs" />
+    <Compile Include="World\Effects\Screen Effects\PitchBlack.cs" />
+    <Compile Include="World\Effects\Screen Effects\Scanlines.cs" />
+    <Compile Include="World\Level\Level.cs" />
+    <Compile Include="World\Level\LevelFile.cs" />
+    <Compile Include="World\Level\Terrain\Terrain.cs" />
+    <Compile Include="World\Level\Terrain\TerrainGrid.cs" />
+    <Compile Include="World\ShaderEffects\GrayScaleShader.cs" />
+    <Compile Include="World\ShaderEffects\PitchBlackShader.cs" />
+    <Compile Include="World\ShaderEffects\Light.cs" />
+    <Compile Include="World\ShaderEffects\NightVisionShader.cs" />
+    <Compile Include="World\ShaderEffects\ScanlinesShader.cs" />
+    <Compile Include="World\ShaderEffects\ShaderEffect.cs" />
+    <Compile Include="World\Spawnpoints\BigScuttleBugSpawnPoint.cs" />
+    <Compile Include="World\Spawnpoints\KreestSpawnPoint.cs" />
+    <Compile Include="World\Spawnpoints\ScuttleBugSpawnPoint.cs" />
+    <Compile Include="World\Spawnpoints\SpawnPoint.cs" />
+    <Compile Include="World\Weapons\BioToxinCannon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\EnragedScuttleSpawnGun.cs" />
+    <Compile Include="World\Weapons\ScuttleSpawnGun.cs" />
+    <Compile Include="World\Weapons\TurretIonCannonLink.cs" />
+    <Compile Include="World\Weapons\Weapon3D.cs" />
+    <Compile Include="World\Weapons\FlameThrowerWeapon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\IonCannonLink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\Machinegun.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\PainterWeapon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\ParticleGun.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\Pistol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\PlasmaWeapon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\RailCannon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\Reticles\WeaponReticle.cs" />
+    <Compile Include="World\Weapons\RocketMiniGun.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\RPGWeapon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\ShockWaveWeapon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\ShotgunWeapon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\SmartRifle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\SmartRPG.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\TurretHyperRailCannon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\TurretHyperRPGWeapon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\TurretMiniGun.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\TurretParticleGun.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\TurretRailCannon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\TurretRPGWeapon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\TurretSmartRifle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="World\Weapons\WeaponSpray.cs" />
+    <Compile Include="World\Weapons\Reticles\SprayPip.cs" />
+    <Compile Include="World\Weapons\Reticles\SprayReticle.cs" />
+    <Compile Include="World\Weapons\WeaponHeavy.cs" />
+    <Compile Include="World\Weapons\Projectiles\BioToxinBullet.cs" />
+    <Compile Include="World\Weapons\Projectiles\PistolBullet.cs" />
+    <Compile Include="World\Weapons\Projectiles\MachinegunBullet.cs" />
+    <Compile Include="World\Weapons\Projectiles\RPG.cs" />
+    <Compile Include="World\Weapons\Reticles\AssaultReticle.cs" />
+    <Compile Include="World\Weapons\Reticles\AssaultPip.cs" />
+    <Compile Include="World\Weapons\Reticles\HeavyPip.cs" />
+    <Compile Include="World\Weapons\Reticles\HeavyReticle.cs" />
+    <Compile Include="World\Weapons\Reticles\CursorReticle.cs" />
+    <Compile Include="World\Weapons\Projectiles\Particle.cs" />
+    <Compile Include="World\Weapons\Projectiles\MiniRPG.cs" />
+    <Compile Include="World\Weapons\Projectiles\RailBullet.cs" />
+    <Compile Include="World\Weapons\Projectiles\Reticle\ReticleCentre.cs" />
+    <Compile Include="World\Weapons\Projectiles\Flame.cs" />
+    <Compile Include="World\Weapons\Projectiles\SmartMissile.cs" />
+    <Compile Include="World\Weapons\GrenadeWeapon.cs" />
+    <Compile Include="World\Weapons\MineWeapon.cs" />
+    <Compile Include="World\Weapons\MiniGun.cs" />
+    <Compile Include="World\Weapons\Projectiles\Bullet.cs" />
+    <Compile Include="World\Weapons\Projectiles\SmartBullet.cs" />
+    <Compile Include="World\Weapons\Projectiles\Reticle\Reticle.cs" />
+    <Compile Include="World\Weapons\Projectiles\Grenade.cs" />
+    <Compile Include="World\Weapons\Projectiles\Mine.cs" />
+    <Compile Include="World\Weapons\Projectiles\Plasma\PlasmaFlare.cs" />
+    <Compile Include="World\Weapons\Projectiles\Plasma\Plasma.cs" />
+    <Compile Include="World\Weapons\Projectiles\Plasma\PlasmaBulb.cs" />
+    <Compile Include="World\Weapons\Projectiles\Projectile.cs" />
+    <Compile Include="World\Weapons\Projectiles\SmartProjectile.cs" />
+    <Compile Include="World\Weapons\Weapon.cs" />
+    <Compile Include="World\Weapons\WeaponAssault.cs" />
+    <Compile Include="World\Weapons\WeaponStateEnum.cs" />
+    <Compile Include="World\Weapons\WindupWeapon.cs" />
+    <Compile Include="ZAMathTools.cs" />
+    <Compile Include="ZAUtilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content\Content.contentproj">
+      <Project>279a8429-0003-4c31-9d73-0935f2b55211</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\x86\Debug\" />
+    <Folder Include="obj\" />
+    <Folder Include="World\Effects\DPSF\Plasma Rifle\" />
+    <Folder Include="World\Effects\Particle Systems\Plasma Rifle\" />
+    <Folder Include="World\Effects\Particle Systems\RagePS Effects\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.3.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Loading_Screen.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Content\Content.contentproj" />
+    <None Include="World\Characters\CharacterClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DPSFXbox360">
+      <HintPath>..\External Resources\DPSF\DPSFXbox360.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Xclna.Xna.Animation360">
+      <HintPath>..\External Resources\Xclna.Xna.Animation360.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

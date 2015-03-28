@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ZitaAsteria.World.Effects.DPSF.AbstractBillboardZAPS">
+    <Position X="37.5" Y="16.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACAAAFQAAAAIABAAAAAABAAgMAACCAAAAAAI=</HashCode>
+      <FileName>World\Effects\DPSF\AbstractBillboardZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.DPSF.AbstractLocation2DZAPS">
+    <Position X="39.25" Y="21.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\DPSF\AbstractLocation2DZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.Splatters.GeneralSplatterZAPS">
+    <Position X="32" Y="24" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAABAAEAAAABAAAAAEAAAgEAAACAAABAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\Splatters\GeneralSplatterZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.PortalsMarkersFlares.PortalUpwardZAPS">
+    <Position X="35.25" Y="24" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAACAEAAAAAgRAgAAAAAAAAAQgEAgACAAAAAAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\PortalUpwardZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.AbstractCompoundEffect">
+    <Position X="37.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQCAACAAAAAJAAAAgAAAAIAAAAQAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\AbstractCompoundEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ACEParticleShaderListEffect">
+    <Position X="36" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAiAAAAABQAAAAAAAAEAACAAAgAAAAAAAEAAEAA=</HashCode>
+      <FileName>World\Effects\ACEParticleShaderListEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.Splatters.WarriorScuttlebugBloodSplatterACE">
+    <Position X="6.75" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\Splatters\WarriorScuttlebugBloodSplatterACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.PortalsMarkersFlares.PortalACE">
+    <Position X="37.75" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\PortalACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.PortalsMarkersFlares.Flares.GeneralFlareACE">
+    <Position X="64.5" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ECQAQABAIAAABAAAAAACAACAAAIQAAAAABAAAEAAEAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\Flares\GeneralFlareACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.PortalsMarkersFlares.Flares.BlueFlareACE" Collapsed="true">
+    <Position X="65" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\Flares\BlueFlareACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.PortalsMarkersFlares.Flares.GreenFlareACE" Collapsed="true">
+    <Position X="69.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\Flares\GreenFlareACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.PortalsMarkersFlares.Flares.WhiteFlareACE" Collapsed="true">
+    <Position X="62.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\Flares\WhiteFlareACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.PortalsMarkersFlares.Flares.YellowFlareACE" Collapsed="true">
+    <Position X="67.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\Flares\YellowFlareACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.PortalsMarkersFlares.Flares.FlareSparksZAPS">
+    <Position X="41.5" Y="24" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEABAgAAAAAAAAAAgEAAACAAAAAAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\Flares\FlareSparksZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPSF.ParticleSystems.FlareUpwardZAPS">
+    <Position X="44.75" Y="24" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAEABAAAAAgEAAACAAAAAAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\Flares\FlareUpwardZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionSmoke.FireZAPS">
+    <Position X="21.25" Y="24" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgBBBARAAAAEBAAAAAAAAAAAAAAAgEAAACAAAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\FireZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionSmoke.IncendiaryExplosionWithTrails.DebrisTrailZAPS">
+    <Position X="18.25" Y="21.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAEAAAAAAQAAAAAAAgAAAAgMBgACAAAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\IncendiaryExplosionWithTrails\DebrisTrailZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.IncendiaryExplosionWithTrailsACE">
+    <Position X="54.75" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACYAAAAAAAAABAAAAAAAAAAAAAAAAgACAgAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\IncendiaryExplosionWithTrailsACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.SmokeZAPS">
+    <Position X="38.5" Y="24" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABBAACAAAAAAAAAAEAAAAEAAAAAAAgEAAACAAEAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\SmokeZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.SmokePlumeACE">
+    <Position X="58" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\SmokePlumeACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.PortalsMarkersFlares.Flares.RedFlareACE" Collapsed="true">
+    <Position X="60.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\PortalsMarkersFlares\Flares\RedFlareACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.ShaderEffects.ShaderEffect">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAABAIQAAAAEAAABAAAAAAAAAAAAABAAgAAA=</HashCode>
+      <FileName>World\ShaderEffects\ShaderEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.ShockWaveShader">
+    <Position X="0.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAwAgAgAAAAARAAAAgoAQAgIAgAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\ShockWaveShader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionSmoke.HailMary.FlameShockwaveZAPS">
+    <Position X="56.75" Y="24" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgABAASAAABEABgAIAACEwAAAgAAgEAgAiAAAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\HailMary\FlameShockwaveZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.HailMaryACE">
+    <Position X="31.25" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAACAAAAAADAAAAAAAAAAAAAAAAgAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\HailMaryACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.SmallIncendiaryExplosionACE">
+    <Position X="22" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAAAEAQAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\SmallIncendiaryExplosionACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Weapons.Railgun.RailgunExplosionACE">
+    <Position X="28" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAABAAAAAAAAAAABAAAAgAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\Weapons\Railgun\RailgunExplosionACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Weapons.RPG.RPGExplosionACE">
+    <Position X="34.5" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAABAAAAAAAAAAABAAAAgAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\Weapons\RPG\RPGExplosionACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.ShockwaveZAPS">
+    <Position X="29" Y="24" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABQAACAAAAAAAAEAAAAgUAAACAAAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\ShockwaveZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.ShaderShockWaveACE">
+    <Position X="25.25" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAIAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\ShaderShockWaveACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.Splatters.DeadspawnBloodSplatterACE">
+    <Position X="3.75" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\Splatters\DeadspawnBloodSplatterACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.Splatters.MonsterScuttlebugBloodSplatterACE">
+    <Position X="18.5" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\Splatters\MonsterScuttlebugBloodSplatterACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.Splatters.SmallScuttlebugBloodSplatterACE">
+    <Position X="15.25" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\Splatters\SmallScuttlebugBloodSplatterACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.WallDebrisACE">
+    <Position X="52.25" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\WallDebrisACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Weapons.AbstractWeaponACE">
+    <Position X="44.25" Y="9" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAABAAIAQAAAAAAAEAAAAAAAgAQAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\Weapons\AbstractWeaponACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Weapons.ION_Cannon.IONRayShockwaveZAPS">
+    <Position X="53.75" Y="24" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAAAAAAAAAAAAAAEAAgAAAAgEAAACAAAAAAA=</HashCode>
+      <FileName>World\Effects\Weapons\ION Cannon\IONRayShockwaveZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Weapons.Flamethrower.FlameThrowerWACE">
+    <Position X="48.25" Y="13" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAAAIAAAAAAAAAAAAAAAAAgAAgAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\Weapons\Flamethrower\FlameThrowerWACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Projectiles.ProjectileTrailZAPS">
+    <Position X="25.25" Y="24" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIABAAAAACAAgAAAACAAAAAAACAAAAgEAAiCAgAAABA=</HashCode>
+      <FileName>World\Effects\Projectiles\ProjectileTrailZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Weapons.Railgun.RailgunFlareZAPS">
+    <Position X="50.75" Y="24" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgBBBAAAAAAAAAAAAAAAAAAAAAAAgEgAACAAAAEAA=</HashCode>
+      <FileName>World\Effects\Weapons\Railgun\RailgunFlareZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Weapons.Railgun.RailgunWACE">
+    <Position X="44.25" Y="13" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAAAIAgAAAAAAAAAAAAAAAgAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\Weapons\Railgun\RailgunWACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Weapons.Standard_Muzzleflares.GunpowderFlareZAPS">
+    <Position X="47.75" Y="24" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABBBAAAAAAAAAAAAAAAAAAgAAAAgEgAACAAAAEAA=</HashCode>
+      <FileName>World\Effects\Weapons\Standard Muzzleflares\GunpowderFlareZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Weapons.Standard_Muzzleflares.GunpowderWACE">
+    <Position X="40.25" Y="13" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAAAIAAAAAAAAAAAAAAAAAgAAAAAAAEAAABA=</HashCode>
+      <FileName>World\Effects\Weapons\Standard Muzzleflares\GunpowderWACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Levels.DiurnalCycleACE">
+    <Position X="71.75" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BAQAAACBAAAAAQAAQAgAAAAAAAAQAgAAAAAAAAACAAA=</HashCode>
+      <FileName>World\Effects\Levels\DiurnalCycleACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Projectiles.AbstractProjectileACE">
+    <Position X="11" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAkAAABEAAEAAAAQAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\Projectiles\AbstractProjectileACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Projectiles.GenericPACE">
+    <Position X="11.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Effects\Projectiles\GenericPACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Projectiles.RailBullet.RailBulletTrailZAPS">
+    <Position X="24.25" Y="28.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\Projectiles\RailBullet\RailBulletTrailZAPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Projectiles.RPG.RPGTrailZAPS">
+    <Position X="26.75" Y="28.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\Projectiles\RPG\RPGTrailZAPS.cs</FileName>
+      <NewMemberFileName>World\Effects\Projectiles\RailBullet\RailBulletTrailZAPS.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Projectiles.RPG.RPGTrailPACE">
+    <Position X="10.25" Y="15" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\Projectiles\RPG\RPGTrailPACE.cs</FileName>
+      <NewMemberFileName>World\Effects\Projectiles\RailBullet\RailBulletTrailPACE.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.Projectiles.RailBullet.RailBulletTrailPACE">
+    <Position X="12.75" Y="15" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Effects\Projectiles\RailBullet\RailBulletTrailPACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZitaAsteria.World.Effects.ExplosionsSmoke.FireACE">
+    <Position X="2.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAA=</HashCode>
+      <FileName>World\Effects\ExplosionsSmoke\FireACE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

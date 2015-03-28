@@ -1,0 +1,1131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLLOCATION">
+            <Component Id="cmpB3E4A7DDEAC065AD8D3CCAA73B8578CD" Guid="{9B56CB57-9F63-4629-BCC8-59AF4899C75D}">
+                <File Id="filF52D740EE776ACB7ACF70C96F6238E8C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\DPSF.dll" />
+            </Component>
+            <Component Id="cmp0F89F3573888378007DFA95FEE6B82C4" Guid="{16E3CF20-BEB1-4790-99BF-BF1FA11136CF}">
+                <File Id="filFEB152E72748FEDE52ED6A3BC9A813BF" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\DPSF.xml" />
+            </Component>
+            <Component Id="cmpAE0686AA57B59F974ACCF797BE8B4210" Guid="{990C4BE1-00B6-436F-AA74-F8B2CF4E3FAC}">
+                <File Id="filE84EC17BBA7436AD7C0CBFB246B396C1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Game Core.dll" />
+            </Component>
+            <Component Id="cmpA357D69AF0FF086ECD9255CE53F25F46" Guid="{3C8FFC0F-937B-46B1-8574-1CDD7E9B4D76}">
+                <File Id="fil16963EFBA64A97E44A0A129BEE16ACCA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Game Core.pdb" />
+            </Component>
+            <Component Id="cmp2E8A6C0B9938EFC5053FFA1682236B40" Guid="{E299EDDE-695E-483B-B7E0-BF3DAFC3BE69}">
+                <File Id="filB80DDBF2A58D7307442DB33DC20B2243" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SharedContent.dll" />
+            </Component>
+            <Component Id="cmpDFB05D9FDE23E77022DC14C813CFAF3B" Guid="{F5149B6C-D951-42C9-B356-2C03549EAF83}">
+                <File Id="fil3F5B5B260A80319E4A7D4FCE1E1ED1E7" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SharedContent.pdb" />
+            </Component>
+            <Component Id="cmp1E7FB58BC8BFD35B7D9E2FFC4C81DEAF" Guid="{A305F914-4F69-4D56-BF48-B9F1F36D8365}">
+                <File Id="filB2DB9C586AFD6C74C5968819E4C754D1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\TemplateCore.dll" />
+            </Component>
+            <Component Id="cmpD76D1052C222ACE90EEA608C085EA1BC" Guid="{124118FD-09FF-4FD4-9D53-C201886A1593}">
+                <File Id="fil9ED0F4B6CE59243FD21B6C6BB5564D69" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\TemplateCore.pdb" />
+            </Component>
+            <Component Id="cmpBEBD35B691DB47E9F5F97A7926ED1D0A" Guid="{254566A2-0A8C-494A-84C5-4B3EBC4FA687}">
+                <File Id="fil97E638262739A4B1962A4BF53885C381" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Xclna.Xna.Animationx86.dll" />
+            </Component>
+            <Component Id="cmp6A17A3264536E8010E742D990CC912C1" Guid="{F50445C5-E8F2-4EDC-9D12-5E4FE0604F26}">
+                <File Id="filF85A2D6B425B30E845B132FCAB6A2073" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\ZAsteroids.exe" />
+            </Component>
+            <Component Id="cmp0A6A2A9F60045013F48E424F80CA0966" Guid="{A9719314-023D-4B8A-9844-C1C1F1BBA57F}">
+                <File Id="filDAF40ACB12B5490329CA290CE065CC7D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\ZAsteroids.pdb" />
+            </Component>
+            <Component Id="cmp53672509BFA3B7A53FCABA62670A80F8" Guid="{9750D073-9C97-40A4-8E4B-C51426FDA673}">
+                <File Id="fil6436D33C6288926E81A7137187795A30" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Zita Asteria v2.ico" />
+            </Component>
+            <Directory Id="dir0315B7A45FC1A1C4D6B10FCA53856137" Name="BaseContent">
+                <Directory Id="dir347533EA85493F0D284F9E9C3BFC65CD" Name="Fonts">
+                    <Component Id="cmpF1553A12B25D3F72AC6D88E67289416D" Guid="{7CA89DB5-08D9-4B23-9FC7-9A4587ACC734}">
+                        <File Id="fil6F5B4F96B0F1E796DB207C3BD10811DA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague12pt.spritefont" />
+                    </Component>
+                    <Component Id="cmp1DBD1D0E880194E377AA6E0B48CD55EB" Guid="{47E61ED6-CA3F-4D40-9216-22CF6503167D}">
+                        <File Id="filDC061D30C93154BC3B5C971A0C956A60" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague12pt.xnb" />
+                    </Component>
+                    <Component Id="cmp1141B678A991607A4FD799B3A9E32C2A" Guid="{209816DE-0A61-4A06-B0DC-A2D27BF7A563}">
+                        <File Id="fil4F0CAC43EB172E6FFF455E8FD54DAA94" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague15pt.spritefont" />
+                    </Component>
+                    <Component Id="cmpC7D4D03B4CB6A98E9213D72063577758" Guid="{2AF9D785-45AC-4AA4-8C49-56A62FFAFCBB}">
+                        <File Id="fil2AC4D1C7D22E9477BC769C0D24D518A4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague15pt.xnb" />
+                    </Component>
+                    <Component Id="cmpF1D34CE405F73D5D0772AD37BBAE9BDE" Guid="{5F202762-F37A-4F1B-8937-DFC16D0D34B8}">
+                        <File Id="fil57E66474DB2C794357D40F3554753086" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague18pt.spritefont" />
+                    </Component>
+                    <Component Id="cmpF7F102C0F51ED0BA7BE13BD9B2BED81D" Guid="{1DA320B6-15AF-4FF4-8682-6FF6C4252B49}">
+                        <File Id="fil606960558F6F0EA2B2638885B4132860" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague18pt.xnb" />
+                    </Component>
+                    <Component Id="cmpA892FF9AA192352617C293B7C6D38EF8" Guid="{1079DA51-79E9-4A95-9283-0F6E8C20F275}">
+                        <File Id="fil28B27FB0E028C53141067AD485D85A27" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague28pt.spritefont" />
+                    </Component>
+                    <Component Id="cmp55E565DF810DC5EB1A14AEBAA3B45ADE" Guid="{5FA414B3-2653-4BB3-8DA9-9E0CF3190D49}">
+                        <File Id="fil82F123162582D6A7138149C188D832C4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague28pt.xnb" />
+                    </Component>
+                    <Component Id="cmpF26B05146FDC49A1C81E4B1E098BD82B" Guid="{8AAE7CF7-0BBA-4895-A831-FF98D03ACE27}">
+                        <File Id="fil6486592F70966A7A539B59E692E5B7D4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\Arial10pt.xnb" />
+                    </Component>
+                    <Component Id="cmp24D7007139E5099868C61497A0C492A1" Guid="{78E743A7-BF31-40F8-8FA5-24FA7C0FAB4B}">
+                        <File Id="filB19B8D35650C55D8666455FD7C2D00BE" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\ArialBold12pt.xnb" />
+                    </Component>
+                    <Component Id="cmpF9E439DB05BC9FA9BDD044BD8985A2AA" Guid="{31E2D347-320C-454C-9957-9D1691F90DB8}">
+                        <File Id="fil231D487543A33F8046C876C93572A225" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\HudFont.xnb" />
+                    </Component>
+                    <Component Id="cmp4AEDDFED9D9E7B79B06A015227449F5F" Guid="{5CA20C00-4B72-44F6-A414-54A7F38557AB}">
+                        <File Id="fil78771232E96B371BBAA89662E65084D3" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\Kootenay11pt.xnb" />
+                    </Component>
+                    <Component Id="cmp3C86DE30D112C2FCBB635E765CBC2891" Guid="{C7C3DC43-30F4-453F-B369-585C131691A4}">
+                        <File Id="filF4F0D1F81E68B611DA98B7CAD97FAA7C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\QuartzMSFont.xnb" />
+                    </Component>
+                    <Component Id="cmpC51CEC55CC927461753FC20405FC02DF" Guid="{4BD643A4-118E-4A68-9233-EB75EA8A6657}">
+                        <File Id="fil40ABAA1C479CA43E57CA9ED404887040" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\SpriteFont1.xnb" />
+                    </Component>
+                </Directory>
+            </Directory>
+            <Directory Id="dir5A888B0B47DCA1BAA7EE6518995BBF0C" Name="EffectContent">
+                <Directory Id="dir188522479F4033F1C2A1A0C702365394" Name="Effects">
+                    <Component Id="cmp1E92BC66ED992BE1CEB7C350ECDDEA91" Guid="{30B00A41-D19E-4117-9C6D-50EC2EF9B525}">
+                        <File Id="fil937A711B14659D03ECC6AED253DD281F" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Lighting.xnb" />
+                    </Component>
+                    <Component Id="cmp523757AFC3C5D32248BF1CE77E3374B9" Guid="{DFEAA617-C445-40AA-BD1B-12BC4B2BBD2D}">
+                        <File Id="filA6F915EB4A2070DFE8E8D15A8FE46141" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\ShockWave.xnb" />
+                    </Component>
+                    <Directory Id="dirD874683D2E84561825B02689B366CE83" Name="DPSF">
+                        <Directory Id="dir21F63C8C2F4E172F6FA46731FB9EADAA" Name="Textures">
+                            <Component Id="cmp0A24CBBEB20270DF12E67E41B4B22AA1" Guid="{B9E85587-C72F-4F61-B348-794B2AA1F7C9}">
+                                <File Id="fil57E77D9947A28A400D6812C22DF00DCB" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Arrow.xnb" />
+                            </Component>
+                            <Component Id="cmp744F0C3590BFFBA192E197162C1534F1" Guid="{7E2D3EBC-1A2F-4981-AAA9-456A18362289}">
+                                <File Id="fil5800B72CA68413C16B910823F17064E9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Arrow2.xnb" />
+                            </Component>
+                            <Component Id="cmp638E74C6685A04A00B876121965B3609" Guid="{DE56B13D-8205-4EE6-8C0A-9C882390CFB6}">
+                                <File Id="filF761A32107295251A398BCA9C5D9340C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Arrow3.xnb" />
+                            </Component>
+                            <Component Id="cmpB61E14AF17C070FB5BEAE5AA64FA4EE5" Guid="{69862F91-35D0-40DA-8CC6-9A75D736AFEC}">
+                                <File Id="filC2E91152015749DB70CDEAE46D1C8714" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Arrow4.xnb" />
+                            </Component>
+                            <Component Id="cmp2589C4A100FBE00ABF99970823935053" Guid="{4E0563A9-712B-4E04-818D-9471823A6905}">
+                                <File Id="filF1212DDF0156BBC477F585CBF9E9859E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Arrow5.xnb" />
+                            </Component>
+                            <Component Id="cmp9A498EA72B03DC917CC610F1F4B0E8D1" Guid="{B3E47F89-7F50-40F0-8FAD-E6A7ADD6C41A}">
+                                <File Id="fil530E1EEDDFE68F3455D629AAE733615D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Ball.xnb" />
+                            </Component>
+                            <Component Id="cmpFEA72C0393F14D12646624BFB2616F89" Guid="{E53DCEBD-8736-4261-B152-EA1BF0DECBA4}">
+                                <File Id="filAA19F7390844E216388933A6EB5BE050" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Bubble.xnb" />
+                            </Component>
+                            <Component Id="cmpC86AAD6992932924EB6FF34EA684C42B" Guid="{70617A08-A3EF-44E9-9D84-A2B5C7495D18}">
+                                <File Id="filC4F995FAB6B0525DB12191AA6BE94A74" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Cloud.xnb" />
+                            </Component>
+                            <Component Id="cmp344EF990A8A4CD55F5687EC79AF4BB14" Guid="{1C23316C-D3B3-46F9-BBF1-D7BF523C4CFD}">
+                                <File Id="filF831DA8D148233F17A3BA2C00A491865" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\CrossArrow.xnb" />
+                            </Component>
+                            <Component Id="cmp61C791B62E3BD949FE3E175D2242D070" Guid="{1B132D30-2AB6-4552-8F43-AC24CF5FE500}">
+                                <File Id="fil32096EDE0AEEC2CF42B19AC031C61F3A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\DarkWisp.xnb" />
+                            </Component>
+                            <Component Id="cmpBDBE6EA0DC17CB708A3C8CC1397FD7A5" Guid="{178C96A1-2C8F-4B67-99C0-B773E35FC054}">
+                                <File Id="fil62FFAB90FFD18B0DB2CEB690879CF306" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Dog.xnb" />
+                            </Component>
+                            <Component Id="cmp1808C0B707F637897A4609CDC49BA865" Guid="{C8C5E2AA-9629-4783-A315-F65182DD242B}">
+                                <File Id="fil9EBD16C39DBA7B4CB3CD58D03DA741A5" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Donut.xnb" />
+                            </Component>
+                            <Component Id="cmp60AF16708582F1481CB59C87824EDF11" Guid="{F1352083-5A09-4E21-9071-EA04BBE15D6C}">
+                                <File Id="filD5206A6F8DA0F976D146E0D68D841AC3" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\DPSFText.xnb" />
+                            </Component>
+                            <Component Id="cmp8EE30F5BD5FBB0DA10B8CD6E6F5063F7" Guid="{C98B156D-8952-4A7A-8E3F-73E6AA906BA9}">
+                                <File Id="fil210836BF181223EFB10D2F23D8A5A522" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\ExplosionParticles.xnb" />
+                            </Component>
+                            <Component Id="cmp07988D69631AA93761642112B204E2B8" Guid="{62B274F8-B5B5-4701-9FE9-46A3FDB297B4}">
+                                <File Id="fil024ED727D7A3C1007E0F0F658AC2900F" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Fire.xnb" />
+                            </Component>
+                            <Component Id="cmpA0C6487E66DF369B54628F5E3E9D34E3" Guid="{30164B59-B678-4DF1-9EC8-7563CC5D1FBC}">
+                                <File Id="fil423AD07B73A0CA10A1A0770A778D5CC4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Flare.xnb" />
+                            </Component>
+                            <Component Id="cmpDDC61D67F87923D46CE51BD643F700AF" Guid="{6C896F6F-5D7B-4BDE-981C-A11E04121096}">
+                                <File Id="filA4A12E84B4F84776510C8AB1C6D4936C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Flower2.xnb" />
+                            </Component>
+                            <Component Id="cmp58102211A6141C2BB44AB334E5984101" Guid="{9FC7EEA7-8914-48A7-8318-3296DEBAA3AC}">
+                                <File Id="fil740CCF465610313A011FBCA9B6BD7EB1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Flower3.xnb" />
+                            </Component>
+                            <Component Id="cmp5C2E7097AAEEF540F0D96FB428C729F9" Guid="{37BE1F5D-F737-4FE1-BAA8-A0D01C614DD5}">
+                                <File Id="fil6EC7838D6CC24C17738DDE717256D295" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Flower4.xnb" />
+                            </Component>
+                            <Component Id="cmp3799C5E457799B1259A697A2CB5B4FB3" Guid="{C1975B83-92BA-4DCF-9101-F818E1E362AF}">
+                                <File Id="fil3C895A58D1B6FF75D8357B2EC71510ED" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Flower5.xnb" />
+                            </Component>
+                            <Component Id="cmpEF5641F3DCD393F640B1B63864CE792B" Guid="{C581760D-7846-417D-AAB1-5E17FC422F26}">
+                                <File Id="fil8CD261C2D075949838B08E59AEB6123A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Gear.xnb" />
+                            </Component>
+                            <Component Id="cmp3636D75CA491FB6883967D200F4DFC66" Guid="{9D734E14-5A5E-4CC8-8642-19EB6CB957D2}">
+                                <File Id="filE5AA89BDC3D59AC2509BFB82BB780FEE" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Gear2.xnb" />
+                            </Component>
+                            <Component Id="cmp238743A6D57636CF233DB30730E39825" Guid="{D3699C17-6CBD-4EA2-BFD4-987637A3AD71}">
+                                <File Id="fil3505937A97E2A92954450C9286DB1A2D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Gear3.xnb" />
+                            </Component>
+                            <Component Id="cmpCAA28CB39074854EE7204DEB473EDB0F" Guid="{9F02285D-B8F5-411E-BA98-733737289FAA}">
+                                <File Id="filAD1F76724FA55229B907AA08AC15D7AF" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Gear4.xnb" />
+                            </Component>
+                            <Component Id="cmp324C44B9E0596295A5FDA127077E538F" Guid="{EAFBEC87-909F-48B2-B385-D3810961EED5}">
+                                <File Id="filAA34D8F413EDF0BAC625E4D41B476240" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Gear5.xnb" />
+                            </Component>
+                            <Component Id="cmp24D195603928D35E7E55DF06951B5DFF" Guid="{371E1DF1-45AB-41E8-8E25-6B8FDB9BB7F8}">
+                                <File Id="fil7C184F974C183531438A441AE70F637D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\MoveArrow.xnb" />
+                            </Component>
+                            <Component Id="cmp2105D58F2B9E13143314044B8DB92998" Guid="{48586810-E004-4AC1-9937-DE0BFEF705F7}">
+                                <File Id="fil859B8A6693EB9F4DC5CC14AE2ABB5550" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Paper.xnb" />
+                            </Component>
+                            <Component Id="cmpEF5A45A337343E46D23D3F52ED15E5F8" Guid="{D7D167A2-E1D3-442A-82B7-637FDCA0C5E4}">
+                                <File Id="fil2871FE03458C646088E2CC6C2C91D77F" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Particle.xnb" />
+                            </Component>
+                            <Component Id="cmp01FC35DB442232FF3415C02D8498ACFC" Guid="{D6F9179E-B195-4FB2-AE50-E5C264CD0C22}">
+                                <File Id="fil67FD0C0D9052E73AB25D4B59B6EE0B3E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\ParticleGunProjectile.xnb" />
+                            </Component>
+                            <Component Id="cmp5EDA6B6B5C0267E2F0DECD7A947C0B35" Guid="{384B3DAE-48C4-4495-83C9-80FA7BC2EF76}">
+                                <File Id="filC24F129975407890ADD8DC1F2EDB1A5B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\RedCircle.xnb" />
+                            </Component>
+                            <Component Id="cmpA4EB4E3A877410895D5C1CE0F7C5171C" Guid="{DEB21512-F72F-4BDD-B574-73BE5A9281DA}">
+                                <File Id="fil0B8F70E27AB16687EDF1F46C3ACA400A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Shape1.xnb" />
+                            </Component>
+                            <Component Id="cmp2AE8822F3B61AA577DE5A0C0A8C3A8B7" Guid="{F2CDF594-F493-4720-87A6-FB7DFB0A4553}">
+                                <File Id="filF589F763A5DED4F6E95FF2D6696B223D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Shape2.xnb" />
+                            </Component>
+                            <Component Id="cmp8145D4D849516FB4DD8003540E5C2D2C" Guid="{76E823F6-513A-42EB-9B75-FAE38AE70DE0}">
+                                <File Id="fil25B922259F58701D90DCEE414976AD20" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Shockwave.xnb" />
+                            </Component>
+                            <Component Id="cmpDF3D15F079DA157E81884EB2901D01A1" Guid="{82918A68-07AE-4534-80B8-FE54BA3E0585}">
+                                <File Id="fil9273093DA5F2FD5E348B7BF79B37BDC4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Smoke.xnb" />
+                            </Component>
+                            <Component Id="cmp6723B4A72ACE8F31832BF8359D0F507C" Guid="{F9155495-AD47-4C96-B90C-519760AC85EC}">
+                                <File Id="filB3EBE53D3977C30452ED9226A148C20B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Spark.xnb" />
+                            </Component>
+                            <Component Id="cmp554D150C48D428DC75FAE3FD24E3EA11" Guid="{688A65FE-E0B2-41CE-B5D6-431DFDF78385}">
+                                <File Id="fil63331EFCE27BF3EA8B1061C2C789CE49" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Splat.xnb" />
+                            </Component>
+                            <Component Id="cmp324E741E66F8DA613FC4EBEC2F9390E3" Guid="{3B7042AD-5440-41B8-B5F9-4D18C2658B58}">
+                                <File Id="fil0F0F8E825C27B667F6F3692622C09D23" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Star.xnb" />
+                            </Component>
+                            <Component Id="cmpC1094B63F31AF21428E313AAE841193C" Guid="{DAFA3211-6703-466E-88EC-85851D5196B5}">
+                                <File Id="fil6CC30554BB0DBF779805951F5C8C1193" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Star2.xnb" />
+                            </Component>
+                            <Component Id="cmpB42F6EF1D8BEA73415784A52BC9C5C71" Guid="{77E422AC-C2A0-4C4F-B73A-BF74BCD15D22}">
+                                <File Id="fil8BA8E188FCB773DC099D43F208A0B712" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Star3.xnb" />
+                            </Component>
+                            <Component Id="cmp5C1BE109BB215177201DBBFD92E0CB3F" Guid="{65A1B954-50D7-421A-B5A6-DA01F4ED5B9F}">
+                                <File Id="fil84B11ACCEE028DDBA19362FE3267AE57" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Star4.xnb" />
+                            </Component>
+                            <Component Id="cmp38A95A7B4A9E4DFE9C65CBDFAF1DBDAA" Guid="{1B280342-75F5-49D8-B9B5-C0B316C43EA8}">
+                                <File Id="filFB90D15CBDD90C93E7EAFC0BC4F3480E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Star5.xnb" />
+                            </Component>
+                            <Component Id="cmp1CBCB240B4B4B11EFFCC1483A51CBDE8" Guid="{24D4EFEE-840D-497A-A758-D608B8A4D6AC}">
+                                <File Id="fil1B810E09ADA5ABC129AFD98BCB5D8490" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Star6.xnb" />
+                            </Component>
+                            <Component Id="cmpEFD52D44C938D5E5A142C2C4CDE22034" Guid="{BE1877B0-5219-4D6C-AC5B-DA6BF3817555}">
+                                <File Id="fil5EACF73AAFA7A73C39EAAFEDAE1238A1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Star7.xnb" />
+                            </Component>
+                            <Component Id="cmp11EE10B3A680D18D3BBD0C5D6EBEC348" Guid="{331C1087-45ED-4638-A041-6AD304572400}">
+                                <File Id="filB91EF135ABA31125463F7EBC480E8B9B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Star8.xnb" />
+                            </Component>
+                            <Component Id="cmp06ABD172AE144B4B922BECE978A0A403" Guid="{5310A189-F47E-4CAE-8D55-1380549021A6}">
+                                <File Id="fil49E3650EDFA58D46E47B97429F9CF062" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Star9.xnb" />
+                            </Component>
+                            <Component Id="cmp31FCECA185C79E981C8A8598A7AC46CB" Guid="{A7192783-3321-4E5A-90A8-CD9CA503A09E}">
+                                <File Id="filC96893948A9136BC9B93B94BE59D236B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\StarFish.xnb" />
+                            </Component>
+                            <Component Id="cmp6F045E59503B65F37A92360FEE614324" Guid="{C9168729-69AB-489A-991A-BA7B675C3A51}">
+                                <File Id="fil4C2E8AC66AAF3C45BF0A42D4C50071E1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Sun.xnb" />
+                            </Component>
+                            <Component Id="cmp47B9BEBD7F51E96C43D38329F5601DFA" Guid="{0A76D133-0989-4F25-B2CB-1150B32BABE0}">
+                                <File Id="fil616BD2B36465981F505F6FE928B43C23" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Sun2.xnb" />
+                            </Component>
+                            <Component Id="cmp32F637C6794EC69D9CAABDE855704CAE" Guid="{41857F54-2231-4C0B-A500-784750DA7459}">
+                                <File Id="fil9B7C053EFF4C5A4B5826727D6F3D54FF" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Sun3.xnb" />
+                            </Component>
+                            <Component Id="cmp00734A7AF68230F5C113BD8BDB8A4FA4" Guid="{552C6438-1DF2-43F2-A109-D5A846046F6C}">
+                                <File Id="fil5337DA3C500658C34E9F7B2B5DF024E4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\ThrowingStar.xnb" />
+                            </Component>
+                            <Component Id="cmp6B389BF1B9E00D68C001C45BE96B395B" Guid="{743EFF28-9810-4173-90F7-05577C62ABDC}">
+                                <File Id="fil71955AC3ABB222A6C64BCC92C1193A3B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\Wheel.xnb" />
+                            </Component>
+                            <Component Id="cmpAF867AD2F557F8D4880FD22E1A660FF2" Guid="{555B3C94-34AF-454F-82F5-552D92CEC0BA}">
+                                <File Id="filFEDA97F4EA50C1522D0BED40001D3DC6" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\WhiteSquare.xnb" />
+                            </Component>
+                            <Component Id="cmp12A6E37C4928AEB4EEED61A3007BBFD4" Guid="{F7F0556F-54DA-48B4-8599-609BB8A1E0A8}">
+                                <File Id="fil6014D5BF4CF4DA62F02C2DACB76AE520" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\WhiteSquare1.xnb" />
+                            </Component>
+                            <Component Id="cmp3672C1530A7742778ED8C74EA8C57D83" Guid="{FEA2DC38-B5A2-41AC-AE78-3E248C8AB8D9}">
+                                <File Id="filDB6602F96C1ADF3CC5B1A9741104FDF3" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\WhiteSquare10.xnb" />
+                            </Component>
+                            <Component Id="cmpF3C38266D75F0AF47FCF6EA64DCB459A" Guid="{182C5543-A416-4AB1-9607-6AF1FD9731ED}">
+                                <File Id="fil515EBB6E215077520CD240A9D23670CD" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\WhiteSquare2.xnb" />
+                            </Component>
+                            <Component Id="cmpF854697576E024D46AE935F8066A2571" Guid="{37CBD25B-FD09-4D66-8D69-817DB802ECCB}">
+                                <File Id="fil176C4C3109CC85C4B417AEC4084DA764" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\WhiteWisp.xnb" />
+                            </Component>
+                            <Component Id="cmp4EA800D8D6A930B8182E8BD3F04C1A98" Guid="{8E23EEF6-2F2C-41AE-8808-56063E26DABC}">
+                                <File Id="filB723DCE2F5808A476775CB936D75FF36" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\WordBubble.xnb" />
+                            </Component>
+                            <Component Id="cmpE90A7E19FB4F2BB1699AEEB84719B420" Guid="{153EB2DE-5331-4E20-BCC9-41B73AB2C77D}">
+                                <File Id="fil951BBA958A1D550616FF6BB4DC37E7D2" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\DPSF\Textures\X.xnb" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir97D2137AA2FA06159B60AB56D6FD2E11" Name="HUD">
+                        <Component Id="cmpECD0B213A77E577F463E2B6FA4530B30" Guid="{4281C9A6-EA44-4F7B-849A-0D8DDED56B72}">
+                            <File Id="filFC4957ED6604CCF12B4B50135B6C5DA7" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Ammo_Counter.xnb" />
+                        </Component>
+                        <Component Id="cmp03E0FB34F7B8B0BF2CD0A0B0A8AD5303" Guid="{5102C154-10E6-4137-99A9-6F292482714C}">
+                            <File Id="fil79448A20138B311805521F3EC38419EB" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Armour_Counter.xnb" />
+                        </Component>
+                        <Component Id="cmp8A1E0786178C87E49CDCF84D8F7EF0C4" Guid="{8A4271D2-4AEF-4223-8824-104B2CF3A32F}">
+                            <File Id="filE39D5808A19EFB27C628870A97FC2F5E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\constructionhud.xnb" />
+                        </Component>
+                        <Component Id="cmp2C430C41F74602C335B1FFAD132D3EAA" Guid="{5308EC4F-7663-45F2-83B2-0B110D2C1D7F}">
+                            <File Id="fil0CB0C5589B91BD45285D30CC8B80BA98" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\healthbar.xnb" />
+                        </Component>
+                        <Component Id="cmpC2DDCE1AFC2411996D6F242BB9D5777F" Guid="{2CB09713-6A7C-4AD6-80DA-9A05B997E2F2}">
+                            <File Id="fil1169335E8BA8D98E027C849F1D4932F4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Health_Ammo_Armour Box.xnb" />
+                        </Component>
+                        <Component Id="cmpCC7E828D3B56AB21715A7C2C41849CC5" Guid="{8D2AFBBE-2556-4379-B413-303FB3FB9F90}">
+                            <File Id="fil5693DB2A2EB9C61C3CC40624BF8F47A1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Health_Counter.xnb" />
+                        </Component>
+                        <Component Id="cmp61B286B73665EDE8DED949ADDF34F52E" Guid="{DF54F3FF-C757-4280-8469-64C24F7CA052}">
+                            <File Id="fil314186FC50F49D5CBE8347DFD0643661" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\ZAR Box.xnb" />
+                        </Component>
+                        <Component Id="cmp3E8F4DAD832EC326869FA50A58225C19" Guid="{033CAFF8-C777-40ED-A6FA-7024DE3B8C5F}">
+                            <File Id="fil03B76F8046C38FDBF08E202F49AF2820" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\zarbox.xnb" />
+                        </Component>
+                        <Directory Id="dirD14EB3A2E81D6AA340E9C04CE0AA9A40" Name="Construction Menu Item">
+                            <Component Id="cmp935E9322040D64311D29107B1CB109B6" Guid="{93D7F1F8-AB35-48D7-B79A-023526A384AB}">
+                                <File Id="filAC86EFAB76393F4D4D4337927FBF3132" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Construction Menu Item\ConcreteWallIcon.xnb" />
+                            </Component>
+                            <Component Id="cmpB4AF04914BAAE2F4FE3E588D1BEA3762" Guid="{46CDDD64-227A-4CFD-825C-1D0E37D0A0D3}">
+                                <File Id="filEA486C414E39A632F15E97EA86F5515C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Construction Menu Item\number0.xnb" />
+                            </Component>
+                            <Component Id="cmpDB05CD7527146B77F50EE07A3FFDA2B5" Guid="{27E36A07-2635-457E-A7AF-BAD0265FDD1C}">
+                                <File Id="fil56F11F1207C1B257404AD0FD515D617B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Construction Menu Item\number1.xnb" />
+                            </Component>
+                            <Component Id="cmpB0D821E029ACCA877219C6C4F80B214C" Guid="{2A417F83-1EE0-451C-8F4E-15EC3C403150}">
+                                <File Id="filFCD36C9DB25CB51F2FE173FEA49BCBAA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Construction Menu Item\number2.xnb" />
+                            </Component>
+                            <Component Id="cmp9ECD16C3D080C4698661657C3E8928D0" Guid="{268B6580-A723-495C-BAA8-B5AB5FA2F99F}">
+                                <File Id="filA334E22B2B247E1CD9694036FC5600CA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Construction Menu Item\number3.xnb" />
+                            </Component>
+                            <Component Id="cmpB01FC54A95D875F6AD195EAFD27CD7E7" Guid="{5C681717-E7E6-4F08-A338-4F9FB47A5CB2}">
+                                <File Id="fil359D25BBB232BD4966D3C8A3EF21EB75" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\HUD\Construction Menu Item\TurretHeadIcon.xnb" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dirDF03DA8D62C3DCE7101E91E3A2CF4CE7" Name="Particle Systems">
+                        <Component Id="cmp918C279F178E0E9F8ABCF3C7F247B6D7" Guid="{C91F1246-9A4B-4D5F-B77D-C9E1730F0693}">
+                            <File Id="filC368531021FC20D449DFB2D0517A4A32" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Beam.xnb" />
+                        </Component>
+                        <Component Id="cmpED1B64DC6A32B5511A7FDC5D1CE293CA" Guid="{7E04D2E6-8B4C-4855-9238-13A2632E826E}">
+                            <File Id="fil0093DD4A412A985C044FBD04195148D9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\BloodParticle.xnb" />
+                        </Component>
+                        <Component Id="cmp4E302981525E412E2ACA3DA315121DAC" Guid="{096D57A4-DC04-4696-B19F-7A59FC1A363E}">
+                            <File Id="fil71C2CBEC3AD551FB023760CE104578B2" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\GeneralParticle.xnb" />
+                        </Component>
+                        <Component Id="cmp5F2FB66F91EBC7E4261CBB4651D19674" Guid="{E26B7BED-1639-4C9B-9CC1-34BAC678CF01}">
+                            <File Id="filD7C2BD64C7DB3536DF690FD50B52C570" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Ricochet.xnb" />
+                        </Component>
+                        <Component Id="cmp7CA2BD0E9C9718D20D383471E9A690C1" Guid="{BA0BB42C-A7A8-4193-8645-C9708741EE78}">
+                            <File Id="fil04325B6C6844F64596880A9986385A61" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\WallDebris.xnb" />
+                        </Component>
+                        <Directory Id="dir05EC64325CCB32FE07FDBB21D7C68A15" Name="Mercury Particle Systems">
+                            <Directory Id="dir059AE0595DFB0E0080FDC6BA6A0EEEEA" Name="Textures">
+                                <Component Id="cmp4DBE8E042065A0079B1F7D7C0857F9D7" Guid="{D4C8F55F-B615-4F16-AD79-274A5E971F39}">
+                                    <File Id="fil7E3A8039A33168C9A286F6C0D70B01A8" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\BeamBlurred.xnb" />
+                                </Component>
+                                <Component Id="cmp401BDCFA3C6F65B328FCE6CE1A132ED6" Guid="{4704893B-C610-4812-B5F8-615BE1CC561A}">
+                                    <File Id="filB3DD430BB6247C06119A56FD08F4CF68" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Cloud001.xnb" />
+                                </Component>
+                                <Component Id="cmpDB1AF00FF64250E95FF358DC1B26AAF7" Guid="{95A561D4-36E5-4617-98B7-AF240BA916DE}">
+                                    <File Id="fil40DF161C794A6AC879D8D1CF034E9977" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Cloud002.xnb" />
+                                </Component>
+                                <Component Id="cmp9BF8DC58EB61858DD84DDE2C4E486676" Guid="{4F52CC75-5107-4B33-AAD9-15877F4301CB}">
+                                    <File Id="filE628620F3DF10E0518D4C517732356F9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Cloud003.xnb" />
+                                </Component>
+                                <Component Id="cmp1D701A5D06FBCBB8E2028C5FD28BEC52" Guid="{7E309EFE-44B9-463C-ADCA-DDE7BB88438A}">
+                                    <File Id="filEDA873D8888017D719C628F0E59082B6" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Cloud004.xnb" />
+                                </Component>
+                                <Component Id="cmp13A2EFD0F66E64FA400664549D61B904" Guid="{5F8A3EC7-0A41-4F13-B717-853121CB1B7B}">
+                                    <File Id="filE0B10575C5ECDC8F50D65D5F19EE13E3" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Flame.xnb" />
+                                </Component>
+                                <Component Id="cmp78D56F85A76CCB5B9DE0B39B89335133" Guid="{03F70545-820E-4C92-8BB0-1C7AA977BF5F}">
+                                    <File Id="fil0B4CF0FC04919C9692AB9B78BE24885A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\FlowerBurst.xnb" />
+                                </Component>
+                                <Component Id="cmp7EA7A19BC84D04E266CC866DCC511321" Guid="{6C0CF6AC-2A51-41E6-AF1F-15FCD9DF11A3}">
+                                    <File Id="filC06E3F6A5F21B6ADB04E65E12FC46CE6" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Laser.xnb" />
+                                </Component>
+                                <Component Id="cmpD5714142B59FC768C36C1C197A644528" Guid="{B65E2B13-6332-4A91-A9D7-43E7DCBF159A}">
+                                    <File Id="fil80B8413051BAF9CED885CFCD64D99D87" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\LensFlare.xnb" />
+                                </Component>
+                                <Component Id="cmp1E1898F0993B4C46558F8D2479D2F114" Guid="{6A61803F-E3C6-4EA3-821B-FF0E55DA98F6}">
+                                    <File Id="fil951D5D70D6FC5F3F65209D7686ABF336" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\MultiDot.xnb" />
+                                </Component>
+                                <Component Id="cmp44130FF46408B444D50C226B149B355A" Guid="{6FDD4331-D18C-4D73-9DD9-E94FB85ECCC9}">
+                                    <File Id="filEA43B444700A3AAB09F235D90F6BA79D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Particle001.xnb" />
+                                </Component>
+                                <Component Id="cmp99A72B2425741CED0CF96309D95360E1" Guid="{D99FD598-F116-42A1-9291-342FD048E967}">
+                                    <File Id="filECAE1AB326EA7219EA8A6F743B4FC2D5" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Particle002.xnb" />
+                                </Component>
+                                <Component Id="cmp0D0E01E2495DFDC1A06C442F6E4E0063" Guid="{D9ABB295-4A5D-4A67-946F-86F25D269BD2}">
+                                    <File Id="fil91F756ED30C885B720EBA4B204F62A1D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Particle003.xnb" />
+                                </Component>
+                                <Component Id="cmp268B4EBA907AA27CAC1C93050D3A9BB3" Guid="{25114A20-7630-4C17-88F8-40D7E5783739}">
+                                    <File Id="fil1E3C0723E24E7443FC78631A2829B28B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Particle004.xnb" />
+                                </Component>
+                                <Component Id="cmpF064C834792E6E36057860582854332B" Guid="{6E687618-0377-4594-8EA1-9F8804C36EB7}">
+                                    <File Id="filB6B6502EB06011E4CF7FD2C98DA7E957" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Particle005.xnb" />
+                                </Component>
+                                <Component Id="cmp237954FF513C94FBB5471758BE518CBA" Guid="{4BF132EF-B411-40AC-BA18-E485A6E871E6}">
+                                    <File Id="fil0F465E5109196A0CDAD533131F97DBC9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Particle006.xnb" />
+                                </Component>
+                                <Component Id="cmpC7F8523D81A3FB7BB5645E6931BB81D2" Guid="{4F67F3B0-D022-4530-9CF7-1C8066B15AC6}">
+                                    <File Id="filB1B5DE46B801E5D460F5A35420E873C3" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Particle007.xnb" />
+                                </Component>
+                                <Component Id="cmp18CDCDF56F11486287BD635750B13E99" Guid="{28D76DF6-27E8-4266-BD57-247D58B16D2A}">
+                                    <File Id="filBA1A90F21B714973CCFB4CD8D9163C75" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Ring001.xnb" />
+                                </Component>
+                                <Component Id="cmpC1911AB536CA2B03E1F19B54BC02F450" Guid="{79F4CC04-5B62-4397-96FC-34786146F5DB}">
+                                    <File Id="fil8330430A6FB2D95ADC05E6E856890B71" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Ring002.xnb" />
+                                </Component>
+                                <Component Id="cmp140F64F87ED2132E2CCDEB7E6EC0F00A" Guid="{56D1BE39-0529-4AF1-BD88-6AFF39FF8F17}">
+                                    <File Id="fil69E439C33B3C7705BBAA7C88FD87C34F" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\SoftClumpy.xnb" />
+                                </Component>
+                                <Component Id="cmp08CEAE2F7FC28CF83926F73FE4758978" Guid="{61F788F1-748B-48AA-AC39-00562AA22979}">
+                                    <File Id="fil24FD70BB9CE199FF823524DC54997310" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\SoftSmokey.xnb" />
+                                </Component>
+                                <Component Id="cmpAF10B36C4BBB2C7577C734226AFDBD84" Guid="{EA754410-210B-460F-BD08-117DEB9FFB85}">
+                                    <File Id="fil8E7E8CCDC12B18DFF5AD9F6F8BE01441" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Spikey001.xnb" />
+                                </Component>
+                                <Component Id="cmpCF3D43F9BFFE4773A96381CDE9996479" Guid="{EAAB3A36-7928-4260-AD38-D2EBA76594DB}">
+                                    <File Id="filF937B557C59C5F71E028508E0E812E85" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Spikey002.xnb" />
+                                </Component>
+                                <Component Id="cmp61690C62D31116DDECD61E1570228D19" Guid="{00F2F48B-C1BB-48DC-9018-810A0F6A9015}">
+                                    <File Id="filCAA6D0D74D87E6BF07DC7C1189EF4655" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Splash.xnb" />
+                                </Component>
+                                <Component Id="cmp5B5C9FF8C863BF51B011179886B81A78" Guid="{D6EED02E-BD85-43C2-AF54-EBF62814B7EB}">
+                                    <File Id="fil5AD0C5CB80C355CE23617FF323DEEBE1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Spray001.xnb" />
+                                </Component>
+                                <Component Id="cmp42426A369BABBB92D8A40180C6141728" Guid="{D9D5B5D6-BD2D-4F0B-9C45-5564356AECEB}">
+                                    <File Id="fil054D885E62735C3093AD4E0CC8EF9A9C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Star.xnb" />
+                                </Component>
+                                <Component Id="cmpD686E529497647771496CE863E572574" Guid="{A8DA43BD-D3B3-433C-B6B8-87666B3D2BC4}">
+                                    <File Id="fil014370C1A42AA88779527AFDF0431186" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Water001.xnb" />
+                                </Component>
+                                <Component Id="cmp9A92A457DDE5C60EFBC8CF052592F296" Guid="{02DBC73A-C432-47EB-866E-EFFA747FCBD8}">
+                                    <File Id="filE0DA823B3EA8546CB8B247C0411F90F4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Water002.xnb" />
+                                </Component>
+                                <Component Id="cmp3D02B58DC67D6447263894A464385282" Guid="{ABCC089F-E066-4523-B096-20A6C8DC65C8}">
+                                    <File Id="fil5FEC2FA165CD6403D0AEFEB2084896F1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Particle Systems\Mercury Particle Systems\Textures\Weeds.xnb" />
+                                </Component>
+                            </Directory>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir1BC311A775C88F95B4A93B04CA34A67F" Name="Screen Effects">
+                        <Component Id="cmpE25413941B1E5338809823D7CF9D2537" Guid="{C66A84AC-C41A-4E5D-B5D3-122683D045E9}">
+                            <File Id="fil1AC19CB5119DEC37357777CD53C46250" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\AuraEffect.xnb" />
+                        </Component>
+                        <Component Id="cmp3F8D11BB1EAE1E0C2AF2C55E8EBEA313" Guid="{ECE280D9-9A42-4F85-B90E-1A76D022801C}">
+                            <File Id="fil1C774423150E14728562C73A2E48D1CA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\BackgroundGridEffect.xnb" />
+                        </Component>
+                        <Component Id="cmpB83D73C4865BFA7D98C646B72A720C46" Guid="{D05B21A8-804B-4E85-A917-45807390E05E}">
+                            <File Id="fil61E154AF2CB135D4871FFAA736853B1E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\CameraNoise.xnb" />
+                        </Component>
+                        <Component Id="cmpB22CB9C11CD2B06C4840F9DB3C6F52DC" Guid="{F18BE9B0-7BEB-4EEB-AE76-C86EC8B72D33}">
+                            <File Id="fil7B2AA1322C6B7EC9727244405B9D06A0" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\CameraStaticNoise.xnb" />
+                        </Component>
+                        <Component Id="cmpC209136E0DD7387EBF4EF390AAF53762" Guid="{DF43C261-48F7-46B2-8C6C-6888A48143B5}">
+                            <File Id="fil1B39D49430A6DA6823492FC0ACB480DD" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\EclipseEffect.xnb" />
+                        </Component>
+                        <Component Id="cmp2332641738640D17A88E85230F8425FB" Guid="{503BF596-AB09-4554-89C7-9AD475B8F512}">
+                            <File Id="fil1B45E1B57DB8B53678D8148F4AC62F3D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\ExplosionFlash.xnb" />
+                        </Component>
+                        <Component Id="cmp8E5110A501805729D8D223E6A2BD3809" Guid="{2FFEE7C1-C4E1-4880-BA17-0D29F2395318}">
+                            <File Id="fil6B65EC385D0C8BE1ECF6B351CBC0AF58" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\FadeInOut.xnb" />
+                        </Component>
+                        <Component Id="cmpA9BA726EA8B2CF1C0B48149E13A172A8" Guid="{4D79DB58-F647-4B5F-8726-0713C6436A66}">
+                            <File Id="filDD89B1DC75190A42D9900B21042DB033" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\GrayScale.xnb" />
+                        </Component>
+                        <Component Id="cmp7C1218B1769CD599AE58DE0D58699FF4" Guid="{BB86AF86-5B84-4488-B177-3AF1A7BC619E}">
+                            <File Id="filB781F2644376703C0978605DEE91DA96" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\MotionBlurEffect.xnb" />
+                        </Component>
+                        <Component Id="cmpC1F2505BD277B1C8369472BAE28B3619" Guid="{143C2897-CA1F-4577-937E-8C1873285392}">
+                            <File Id="fil5F8F9A82E8CB79C2B325B8C922E1C43E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\NightVision.xnb" />
+                        </Component>
+                        <Component Id="cmpF04EB700E807EF1D2B28DF5F4F0548D4" Guid="{CDC984A4-DB2D-440C-8000-39135EA1A06A}">
+                            <File Id="filCD0A341E950028FABC4B8D19C6E0FD8D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\ParticleFlareEffect.xnb" />
+                        </Component>
+                        <Component Id="cmp1A9AFA68BD42D901E5A5127B184344B6" Guid="{E185850F-D5B0-4A95-8BF9-CD563DAB1FE0}">
+                            <File Id="filE51CBF0EF5619AF936B1282BFDFFF13C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\PitchBlack.xnb" />
+                        </Component>
+                        <Component Id="cmp86C49056E6467107CDF23B7055E6C8B4" Guid="{4287BA9B-D33E-4AE2-BEA3-BD7B5BFD4A91}">
+                            <File Id="fil04ACF3D0FB1ADC22F6BC547C6EF8C508" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\Portal.xnb" />
+                        </Component>
+                        <Component Id="cmpE33774FB9883014B95618E43647DD29C" Guid="{4D17BDBD-8694-4DC7-9EE9-6B118A65E2F9}">
+                            <File Id="filFA2452F4E34F6F6B272A6DB4F737CC81" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\StaticNoise.xnb" />
+                        </Component>
+                        <Component Id="cmp81589C2166F58BF1622B8357E6A941BC" Guid="{CCF5974C-AA45-4701-B302-709C92336308}">
+                            <File Id="fil95899298604ACAA3FD2708C21029399C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Screen Effects\VideoNoise.xnb" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="dirD4706BD90EC5ECD49C05AD6BCE4EFD3D" Name="Weapons">
+                        <Component Id="cmpC844AC18725D5C557E66AFA1C1A9C988" Guid="{83F7D174-471A-406A-B75A-8BD93833BE1D}">
+                            <File Id="fil12F37272E32F2E6D8C0C8B99907DF18A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Effects\Weapons\ShockWave.xnb" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="dir22B0286217D745E90E7C2451530127AE" Name="Menu">
+                    <Component Id="cmp69C30EDC2269CF250561469B8F5FAE81" Guid="{0B4BE1F9-EC3D-4509-8505-92E262D3E70E}">
+                        <File Id="fil3C174A786F76E6E1A6E64A3227A1918A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\controller map.xnb" />
+                    </Component>
+                    <Component Id="cmp48716E4B5E925054EB7642E9538B1472" Guid="{E7125197-CC24-4117-9941-BFAD9B2A82D1}">
+                        <File Id="filA5AD53B967787D322DADC09F688AA979" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\LoadingScreen.xnb" />
+                    </Component>
+                    <Component Id="cmpE959C52D7E4532E0D24303E43A7FE2FE" Guid="{A7A5CF6E-0EE8-4A05-8295-8BB7493F9F6A}">
+                        <File Id="fil51106DCBAB606559785D555FCD221D42" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\menu_selection_icon.xnb" />
+                    </Component>
+                    <Component Id="cmpE380410311AEA1A6E5981ABE5DF16689" Guid="{62D03BFF-9116-4722-85F6-FE87517B8616}">
+                        <File Id="filBBDA2EFC624AB0EC1032DD83EF11E115" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\objectiveBackground.xnb" />
+                    </Component>
+                    <Component Id="cmp9333F36CBAF74DCC134FE67052464B4C" Guid="{23165B15-DA97-44E5-9418-3ED4557BA776}">
+                        <File Id="filB84AF4143263CE9DCFF9FA6ADB0B649B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\player_chosen_icon.xnb" />
+                    </Component>
+                    <Component Id="cmp193ED04BF726AE4A4DA7D36A216F8A84" Guid="{887B5D56-425A-4789-812B-014805C30702}">
+                        <File Id="filCF1F9849BEA814F507593CAA94F1D440" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\tick.xnb" />
+                    </Component>
+                    <Directory Id="dir27F0B89FD3C1615CC616A9A20AD23A8A" Name="Buttons">
+                        <Component Id="cmpF23F4CF720C3B638C85C08E81C49AABB" Guid="{D6BB771A-F98C-4AE4-A2EE-6524B89B0503}">
+                            <File Id="filA40D72193E3B9804B9CCDEA73D62F4F7" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\back.xnb" />
+                        </Component>
+                        <Component Id="cmpDFB663DD7477852F5206C0828CE2A910" Guid="{594FAE80-729A-41F3-BC00-A4C263723FA7}">
+                            <File Id="filCC6C087E80BB2E053C81C02F8795E888" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\d-pad.xnb" />
+                        </Component>
+                        <Component Id="cmpACF3F658081158FE93ADC30438F290FA" Guid="{B524CE6C-5980-45DA-81F8-B0D4214D0D2A}">
+                            <File Id="fil6CCFBC9D52B0B44D875CFA961E6DBA8E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\facebutton_a.xnb" />
+                        </Component>
+                        <Component Id="cmpABADD12F0971AF21EF58768F3AE0E0F1" Guid="{7966970C-2E17-46EE-B088-67F28B4D3A05}">
+                            <File Id="fil924B2C2CB84F8B76DCFFAF1A997E6E9D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\facebutton_b.xnb" />
+                        </Component>
+                        <Component Id="cmp581F0FC86FCA2C25698786215EBC809C" Guid="{42A6985D-EE7E-41F3-B148-FC427FB1F3CD}">
+                            <File Id="fil8691176789BDF6B89B66046AC129A2A2" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\facebutton_x.xnb" />
+                        </Component>
+                        <Component Id="cmp2AF887A31D84E61785DD44BC77259095" Guid="{B2D789DC-FA65-43C6-9393-716753C89D29}">
+                            <File Id="filD51555B375EA5BBA9003777727E93F37" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\facebutton_y.xnb" />
+                        </Component>
+                        <Component Id="cmpC9CB8D0F347F9A587766D6DE1BB4B205" Guid="{75EE9780-CDF6-4CA6-9BFF-A63B2B705F30}">
+                            <File Id="filC8BA57FE6D83B24752597CDC188F23DF" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\left_bumper.xnb" />
+                        </Component>
+                        <Component Id="cmpB7A3EFCA99983FA7FE05ECE371E50C44" Guid="{F6B54994-462F-4F6B-B0EA-B0A8A6000F6D}">
+                            <File Id="fil55D41E8DDC4738A383A9E2A3A42B3720" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\left_thumbstick.xnb" />
+                        </Component>
+                        <Component Id="cmp39AB72241B9A02472A5B0A18B37C0925" Guid="{F83BBD2F-1A28-440A-B462-65E6872B5BCD}">
+                            <File Id="filBD22AF93C4D84F5179784347B1D7B2D6" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\left_trigger.xnb" />
+                        </Component>
+                        <Component Id="cmpEE928102FFF39C1D40F9F6D613A3C4E9" Guid="{42917BA8-611B-42D2-A5E7-B3CD0E79F8F4}">
+                            <File Id="fil16742AB951F5E53BF661625F4892BB65" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\right_bumper.xnb" />
+                        </Component>
+                        <Component Id="cmp4DF9CA38238980AC879327743AF4F88F" Guid="{C582A253-549E-4B4D-8AB7-54123FDD092B}">
+                            <File Id="filA9F9BD957D169081EEF8C27C8422BA61" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\right_thumbstick.xnb" />
+                        </Component>
+                        <Component Id="cmp04632CD5355D1A051551916E185BFF61" Guid="{DBA5D7EA-F6D3-4D29-BFE0-59D5259D4EA1}">
+                            <File Id="fil81717378E9064FC87BC0F7105BE75DE5" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\right_trigger.xnb" />
+                        </Component>
+                        <Component Id="cmp724F5373721067D80E07DA7A45802E09" Guid="{61B8EEBE-2C86-4337-B096-2A9E65F48936}">
+                            <File Id="fil03DF9E98956EBBA27158386FD7D76AB0" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\EffectContent\Menu\Buttons\start.xnb" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="dir2468E12107F9662572B12A2D39C3FB6F" Name="Menu System Content">
+                <Component Id="cmp9F3CFAFC23D587EFDBEB644B66223C4D" Guid="{C95C0FAA-B533-4FC2-9D46-8E2C58622E01}">
+                    <File Id="filEA7367A470F6B3C64464A334F2BB24FA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Droid_Scoutship_UV_0.xnb" />
+                </Component>
+                <Component Id="cmpE0D65C9E7B90D19394B13FCD215090FB" Guid="{980BAA1A-0DE2-46BD-B8AC-03B78BF97E18}">
+                    <File Id="fil6051DADA841A7D772EDD13AE3D41C4A8" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\sf_war_1_0.xnb" />
+                </Component>
+                <Component Id="cmpEBC9FDFF9FC1D1E608A5BA1D5319ACCE" Guid="{33AD0D4C-DCC3-453F-9035-A89AE6E1212B}">
+                    <File Id="fil288202B7A36B3BF1A0D21D48AE2086AA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Ship_Diffuse_0.xnb" />
+                </Component>
+                <Directory Id="dir27FCC38AE413AC2168A4C49F8A8A068A" Name="Effects">
+                    <Component Id="cmp31DF0FDB41ACE93281885D2A17026AC8" Guid="{17905B54-2E21-4FB4-8E7C-C5F033A21753}">
+                        <File Id="filDB49CEBFE5C7CABB8E97889FB4965D4B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Effects\BloomCombine.xnb" />
+                    </Component>
+                    <Component Id="cmp4F4EF633237108552D86F916823ADF19" Guid="{3BB8A456-75B8-4E3D-8694-4A7B6B78053D}">
+                        <File Id="fil0A97B8F4D7076CC230500BF8C9C1D9EF" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Effects\BloomExtract.xnb" />
+                    </Component>
+                    <Component Id="cmpA0C762261281826C8A29C595CF447BFD" Guid="{B3D9D082-6AE9-412E-B773-8DAE1D6E776E}">
+                        <File Id="fil62C41F04294AA63A741620E865E452EB" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Effects\CrepBlackoutLight.xnb" />
+                    </Component>
+                    <Component Id="cmpE0BDE34E14325CB8D785DCC79261DC6F" Guid="{5D118583-4CB9-4098-A87B-ADC7004AB803}">
+                        <File Id="fil9114A7FCD06C6CAF53BDC558DAAF0B3E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Effects\CrepuscularRays.xnb" />
+                    </Component>
+                    <Component Id="cmp446E11F7CA002DA2A125C41F74885E49" Guid="{B84DC521-FA5E-427F-88D1-7341F7676132}">
+                        <File Id="fil213F4C75D13839BA9E04CF8696EE86C7" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Effects\GaussianBlur.xnb" />
+                    </Component>
+                    <Component Id="cmpC14C254341969A28862EEFC395878FEA" Guid="{3F5CA606-40AA-48AC-8EEE-6DD2AB7A8BA0}">
+                        <File Id="fil3304518FA4ADDB92E5F8EBFE88001CDC" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Effects\MotionBlurEffect.xnb" />
+                    </Component>
+                    <Component Id="cmp212728728C77743F430F8B2462138676" Guid="{153B3107-FCDF-4AA3-B2C9-32DCF9F33C1D}">
+                        <File Id="fil367043CDB364C6B76E978EBAED935764" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Effects\RaysCombiner.xnb" />
+                    </Component>
+                </Directory>
+                <Directory Id="dirFAADCAF87F170B9131B567ACF87DBA5D" Name="HUD">
+                    <Component Id="cmp0ABEA706F8ADB27CA0A60DF9E90C070B" Guid="{A6BEF664-01F7-440A-AF0F-D4250D5DA43D}">
+                        <File Id="fil807F8CF7359F14EB3755B18DEE627051" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\Active.xnb" />
+                    </Component>
+                    <Component Id="cmp2ADB8EDAF080FB2420D92E6487315882" Guid="{65C1D213-2205-47A2-8A7A-0DF610DF8CE9}">
+                        <File Id="filBEA8F7C9A52FE466FC7D777AD96EA33F" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\Crosshair.xnb" />
+                    </Component>
+                    <Component Id="cmp5313FAB75AB28B4277888BF41A83B7DE" Guid="{CA97034D-328E-4BA4-BC78-85875EEC6834}">
+                        <File Id="fil72C1C2E13674E7E8B91D38C4FEEDF26B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\Damage.xnb" />
+                    </Component>
+                    <Component Id="cmpF8CE48751FF78C5E1C488840B3A16F3F" Guid="{CD613170-387C-4C4B-91EF-6BA95215958C}">
+                        <File Id="fil29903F28F1C04C042EBBAD2625D9B081" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\DamageEffect01.xnb" />
+                    </Component>
+                    <Component Id="cmpD33BDC0B9331FA115056AFA07AB218A9" Guid="{35A91648-AC00-41BD-9C42-E4F44E10D571}">
+                        <File Id="fil1DB81AC579910F7049171711DB2FDBA0" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\DamageEffect02.xnb" />
+                    </Component>
+                    <Component Id="cmpDC9CCC68C8B512C6DD5EB1BCE6CC8F9F" Guid="{08B5C2CD-3520-42C3-9647-C05961742898}">
+                        <File Id="filC81CFD3FE842330E2BB69A13A3B31BEF" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\DamageEffect03.xnb" />
+                    </Component>
+                    <Component Id="cmpDC0A70DE6EE2B6E67DEA3C089D90AAF0" Guid="{40A8D9AA-FB15-4CBF-A9C7-51336D8EEA5A}">
+                        <File Id="fil84F8C4F0C15B1BBDDD99D938308B4975" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\Engine.xnb" />
+                    </Component>
+                    <Component Id="cmpCB64523A6F8FB44A13E2246C83EFC4F7" Guid="{74C4BC76-2ECE-4C2E-A1F3-F18231AD5C19}">
+                        <File Id="fil68537DE6A97FB90E0EEFCB4B9A0089C4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\FireHint.xnb" />
+                    </Component>
+                    <Component Id="cmp48D10F23050A1B33F195754604DD96A4" Guid="{29E76673-CCC9-44C4-8820-1CA766346D79}">
+                        <File Id="filE9D43FD7C1D3C094D430C014F00624B4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\General.xnb" />
+                    </Component>
+                    <Component Id="cmp1292533F718D5B6E7E56E536A207005F" Guid="{1C07CF48-C43F-4E06-A008-10F51885F014}">
+                        <File Id="filC3B8F19B754012AC092EF9FED7FC2462" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\GlowMarker01.xnb" />
+                    </Component>
+                    <Component Id="cmp88E086D2455CB0B8090309414D8B90E7" Guid="{453E23F4-BEBD-417C-A80E-C95511EF86AD}">
+                        <File Id="filE88D5ADB9FBFE866074995C3AA235CF9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\HelpTexture.xnb" />
+                    </Component>
+                    <Component Id="cmp8612FF939BCA84B5AC4B0A0CDF21F0FF" Guid="{8812D474-19B3-4302-88DE-4FCB981BE015}">
+                        <File Id="fil0D92F763ACA4DDDAD58272A170F6C295" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\Logo.xnb" />
+                    </Component>
+                    <Component Id="cmp66274CD2F59775DAC52469BB58D2AF73" Guid="{2B0B97E7-3C30-45DD-B80A-CE2CF71874C1}">
+                        <File Id="fil8142B839CA30EA21D3D4A75FEA843EAE" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\MarkerInfo01.xnb" />
+                    </Component>
+                    <Component Id="cmp8CB08AEA1000B89C369486489C971450" Guid="{500FF635-DA89-46A8-8E25-BEAF52E92A56}">
+                        <File Id="filE2793CD85C33E14EA38AF93A100188B2" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\Sheilds.xnb" />
+                    </Component>
+                    <Component Id="cmpB3D1A8BF1F4E39F15109C422B948FF08" Guid="{1A3A393C-676B-4D81-852D-5F07A847328C}">
+                        <File Id="filF62454C983F09A3881075B45C7351EF3" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\UpgradeTexture.xnb" />
+                    </Component>
+                    <Component Id="cmp7B912C073C79D4F4B2A754FC3CD4883F" Guid="{C8D69249-DF0A-4608-97B8-7C676148C352}">
+                        <File Id="fil2115DC7F2D2808C492FB5363F29D5A15" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\UpgradeTextureGlow.xnb" />
+                    </Component>
+                    <Component Id="cmp9A1BA8DCFD5FF440EB380F765AB314EC" Guid="{8FE7B38B-FC0F-4125-A16A-4DEB53A770CE}">
+                        <File Id="fil0181DCE9E3160FF51B0E5B83945820C3" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\WeaponChargeRotation.xnb" />
+                    </Component>
+                    <Component Id="cmp580AFAE3886D87B502E313882DAB2F69" Guid="{8A1D2C03-8788-4BF0-BFCF-C1D72BA68BAD}">
+                        <File Id="filC078369D43FC48B754876B89801E999F" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\WeaponCharging.xnb" />
+                    </Component>
+                    <Component Id="cmp691173640AAD470852E7AACD89A0D5BA" Guid="{2AD24DD0-8462-444E-AAC7-A7E9F29D592E}">
+                        <File Id="filE2296054B8F56EC0D7A8ADB5525D2DC8" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\WeaponReady.xnb" />
+                    </Component>
+                    <Component Id="cmpB65AB22AFE7D561AB4314C8EAAC2C7CC" Guid="{7DF06B41-65D7-43BB-81B8-01A411EA01B2}">
+                        <File Id="filBB32490534710599B0BC4CCEA39C7D13" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\XRotation.xnb" />
+                    </Component>
+                    <Component Id="cmpA326C6C2DA1511276186FBEC2A8F8AAB" Guid="{32B41A4C-1E93-4EEA-90F8-A8D9AE49C108}">
+                        <File Id="filE0048BFAFABF8D8DF208B37B3B612724" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\YRotation.xnb" />
+                    </Component>
+                    <Component Id="cmp2F965109E793EFCD3D25345593FB040A" Guid="{8427249C-672C-4217-9B43-772F4316CDD5}">
+                        <File Id="fil1CC844CDC10FABE86231B1B1B6430DF2" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\ZRotation.xnb" />
+                    </Component>
+                    <Directory Id="dir953A33BE2AA4046A00DE6ECF5247049E" Name="UpgradeMarkers">
+                        <Component Id="cmpE6CD49DB385A0121728D09A635D47EBC" Guid="{42071E00-639B-40E6-A7B9-C2A946B768A7}">
+                            <File Id="fil281CEAC406636CA4263E5AAB9E8D0658" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\UpgradeMarkers\Marker.xnb" />
+                        </Component>
+                        <Component Id="cmp4CDEC24C39E591B04A4093F78CEBD2C6" Guid="{90052C38-36E0-40E6-BECA-2796ECFD3A6C}">
+                            <File Id="filBE9745497ACF17625C4C2149F797E131" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\UpgradeMarkers\MarkerTex.xnb" />
+                        </Component>
+                        <Component Id="cmp5E36511EE9B6F9F9C282B4408DDD6AA7" Guid="{7F8EFB54-0F59-46F6-AAB2-441BE0F1DD70}">
+                            <File Id="filF9C0F86884A2BC3302796827CF5640D8" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\HUD\UpgradeMarkers\MarkerTex_0.xnb" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="dir84C13795DB255CE0F204353BC6D063D3" Name="Planet">
+                    <Component Id="cmp5D962356416028EF80EB3B8E1C73EBB4" Guid="{41FEA1EA-42D9-46C8-A4AA-3AD871625657}">
+                        <File Id="fil1F015A2AB52A77C8C23BB5AFA7F25DC9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Planet\Planet.xnb" />
+                    </Component>
+                    <Component Id="cmp50FBB9F9DC71E660E400F0A8BE012928" Guid="{8EF10CBA-AF43-4AA9-8857-1D1A8B565F2F}">
+                        <File Id="fil99718BF73DB951C197F24D7A18686C45" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Planet\Planet_Lava_Diffuse.xnb" />
+                    </Component>
+                    <Component Id="cmpEEA0E6F862F5AFB54EFF3F982317C6F2" Guid="{03B8DE09-E3A4-442D-BBBC-E7C95BF3CB6E}">
+                        <File Id="fil318CDCCF5509FE79B42E655040B19D26" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Planet\Planet_Lava_Diffuse_0.xnb" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir6F76EFDCE1896C84ACC83F188E0D1AC2" Name="Rock">
+                    <Component Id="cmp76FF1A029ED3278EDBC042D143764CCD" Guid="{0B647D01-A5A3-447A-89DA-01D8C0217D8A}">
+                        <File Id="fil78BA00268FBE54CA3411797BFFD925F2" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Rock\Big_Rock.xnb" />
+                    </Component>
+                    <Component Id="cmp097969FED5726C0A651BE9C765A5ECAC" Guid="{36E8FFDC-DEA4-4D63-B235-CFC622146E99}">
+                        <File Id="filE158F55C6D2DF1E0DE7E5D675D5B9416" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Rock\Big_Rock_Diffuse.xnb" />
+                    </Component>
+                    <Component Id="cmpBE9137D28058D55955905117FEDA27AB" Guid="{9A78CAE2-58B8-44EC-84BD-56F9607DBC5A}">
+                        <File Id="fil65B4961B69C098B7D01608EC5BF14081" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Rock\Big_Rock_Diffuse_0.xnb" />
+                    </Component>
+                </Directory>
+                <Directory Id="dirDBB9E333AB0EA464A8FF74C09CD853B9" Name="Satellite">
+                    <Component Id="cmp219C355FDE959AD513EC079BC359B58F" Guid="{D589A9E6-920F-4AAB-BD66-C74CD0D161C1}">
+                        <File Id="fil481CA0317BEAE82771EA863EAD02EF27" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Satellite\Main_Menu_Ship.xnb" />
+                    </Component>
+                    <Component Id="cmpE29E182BE05BFD7D81F14ACEF6AF4528" Guid="{3DC66122-7A91-498A-8D23-4579C2950955}">
+                        <File Id="fil72A81A3BED1E8542928D997453C8AEE4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Satellite\Main_Menu_Ship_2.xnb" />
+                    </Component>
+                    <Component Id="cmp9839EF8EB3A12C98CF6840E3B95B8A4F" Guid="{DFD9CF5F-28B8-4C78-A7D0-D7F70CFA8AAC}">
+                        <File Id="fil45D048F86F3A766C805EAC9AEC513E13" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Satellite\Ship_Diffuse.xnb" />
+                    </Component>
+                    <Component Id="cmpACE23E3ACEEB8AE98525F3154598B30E" Guid="{6E0B5ED4-A47E-4B52-9529-3A897AFCA310}">
+                        <File Id="fil32A1CFF42C0A648920BC3AD476B675A6" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Satellite\Ship_Diffuse_0.xnb" />
+                    </Component>
+                    <Component Id="cmp9E749C2157883B834443A308F65A8CCB" Guid="{92180B2A-8857-4C00-9ABE-B10B1766E0FE}">
+                        <File Id="fil1251B9C769DD09586BFC14512C21EEE4" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Satellite\TargetActive.xnb" />
+                    </Component>
+                    <Component Id="cmp2E5FE5082E473CFC851CEF227129F2EA" Guid="{E4110FCB-23F3-42C1-AD63-DBD9199477B7}">
+                        <File Id="fil6B5B1A63632EC879196CBD391B7CFFFB" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Satellite\TargetPassive.xnb" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir21A02847E4E1C487C51EA142E93AB9AA" Name="Shield">
+                    <Component Id="cmpE5A06FBCB8D816A8F95D67D46A53205D" Guid="{83392821-EB67-4E77-9FDC-41DEAF8DE9B2}">
+                        <File Id="filB7E1EB87293242C003C6C4611A63C1E9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Shield\SHEILDDIFFUSE.xnb" />
+                    </Component>
+                    <Component Id="cmpAC1A5223C8335128C5B203BDFADF6AD3" Guid="{4E438C6D-0AA0-498C-A5DF-1296D00FDE8C}">
+                        <File Id="fil946DFE95E4B310495E3449F935762020" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Shield\SHEILDDIFFUSE_0.xnb" />
+                    </Component>
+                    <Component Id="cmp9D24981540C0F2B2C627A4FD9606C9C9" Guid="{3DA8D80B-2ACA-4972-AF75-697C3C9373D2}">
+                        <File Id="filB1ADE88CCC7F070A5F0C1D240227CDA5" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Shield\SHIELD.xnb" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir75061B32D492EA65E45B36B12B1B2452" Name="Ships">
+                    <Component Id="cmp5F67B4067E33917665900DFB08B4F383" Guid="{503E0262-1A20-4E51-A92E-19456D34F4CC}">
+                        <File Id="filBDE03EDF42CF656BAB48199141DD52C6" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Ships\ApproachShip.xnb" />
+                    </Component>
+                    <Component Id="cmp7D27AEA3352392E198B849D7A507F506" Guid="{4C338287-D90F-450E-A784-084822095362}">
+                        <File Id="fil181344AFC7E4A94115B74C167500BEAD" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Ships\OrbitingShip.xnb" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir1C42E778637B06C95D867635F3631E13" Name="SPHEREs">
+                    <Component Id="cmpC9FB7F7981B3CC3BC1AA330894CCBFBA" Guid="{0302CF3E-7E5B-4F68-918D-B3B766FE1557}">
+                        <File Id="fil3A686CD0283875497129A32764CF7A70" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\SPHEREs\SPHERE02DIFFUSEJPG.xnb" />
+                    </Component>
+                    <Component Id="cmp435302C4850123470837C6551756B42B" Guid="{B84B1695-8B52-4C1B-B268-D7F75639D88D}">
+                        <File Id="fil49DE2A0678991EAEB02054E681E712C9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\SPHEREs\SPHERE02DIFFUSEJPG_0.xnb" />
+                    </Component>
+                    <Component Id="cmp517ADF74618A83F71F402E0F169ACE6A" Guid="{0A138107-233F-4846-BC83-AD0F3920FBE9}">
+                        <File Id="filD7DC3B85638F9BCD9F61C66C334C279C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\SPHEREs\SPHEREBase.xnb" />
+                    </Component>
+                    <Component Id="cmpB50E08E2B43C4A8ACBF58F91E22E2511" Guid="{301220FC-B52A-4C62-8836-7EAA9320DBA7}">
+                        <File Id="filC50124B22209034FE61E183766A2545E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\SPHEREs\SPHEREBaseRed.xnb" />
+                    </Component>
+                    <Component Id="cmpE095D7D0D706A2B71806B2BB18CD2318" Guid="{430DE3DF-EAC7-433E-83B4-DCC8F3085506}">
+                        <File Id="fil7A88B3EE1651F9EF42E3FA4EDBA4B864" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\SPHEREs\SPHEREBaseRed_0.xnb" />
+                    </Component>
+                    <Component Id="cmp1332E1B43A6354D4AFF4F9FABF1BA1A9" Guid="{172D6481-CA0D-4860-8853-12739153BB33}">
+                        <File Id="filE7232D183431ABABDEB0D5C831D78C8B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\SPHEREs\SPHERES.X" />
+                    </Component>
+                    <Component Id="cmp10A30710802CC1485D8BC33E9919EA4C" Guid="{6EE68D54-B459-4A3D-B72A-3E6C61B27A89}">
+                        <File Id="fil81B2ECDCC1E35FF41C888E8496AF3A1A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\SPHEREs\SPHERES.xnb" />
+                    </Component>
+                    <Component Id="cmp69B38F371D9E9CAA3C4B57CC500A4DFD" Guid="{4297A561-4C76-41F1-981D-081009B40F42}">
+                        <File Id="fil5FFE3488B948EA7CF0D113168607386E" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\SPHEREs\SPHERES02.xnb" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir47A1E4FEFA5371B7526EED4773399AB5" Name="Stars">
+                    <Component Id="cmpD719BA184C7260643751FBDF3F513B5E" Guid="{253A1F04-167A-434E-96BE-0A036723B115}">
+                        <File Id="fil332BA674A4C8F0FAAEDF4904EB1539F1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Stars\Star_Dome.xnb" />
+                    </Component>
+                    <Component Id="cmpF0855932A136EA93B1FA6A345F05215E" Guid="{DA26D8DA-7E5F-4A57-9DDB-CBBE0835F568}">
+                        <File Id="fil223F1415A35F4C6DF8A0355025D19AB9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Stars\Star_Dome_Diffuse.xnb" />
+                    </Component>
+                    <Component Id="cmp5B5429870DED1292A0B5B13514B889C9" Guid="{43D4477E-AE9A-413C-BF47-6CBC76E40890}">
+                        <File Id="filABBB53F285CE3C7A7B42D54C1BABBC96" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Stars\Star_Dome_Diffuse_0.xnb" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir95F4677AEFF50997EF69187BD2765779" Name="Sun">
+                    <Component Id="cmp2B37569E70B66133B7D0C24AB08C2A07" Guid="{BCFA7944-EEEA-450A-A280-BA755D4EC234}">
+                        <File Id="fil68801479CE7BD0AE0C5F67A09E41F867" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Sun\Blue_Sun.xnb" />
+                    </Component>
+                    <Component Id="cmpC245CE156B33A498D336D04E60D1D126" Guid="{836E26F5-4905-4F34-A5F2-AFDAD4375439}">
+                        <File Id="fil3EABD1B241FC16EDEDD9F10236C9E67C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Sun\Red_Sun.xnb" />
+                    </Component>
+                    <Component Id="cmpF73142BCEBFCCA39A28682DC17762FAA" Guid="{B5E1E082-40C8-4651-8DF9-9514F7F963A0}">
+                        <File Id="filF9E0A5CF53545F5CB99CB1D8D2C0DCF8" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Sun\Sun_Yellow_v2.xnb" />
+                    </Component>
+                    <Component Id="cmp76259908E36C52B71BC7554019124D12" Guid="{A86453E6-EDB4-4138-8C38-E7F99DA26257}">
+                        <File Id="fil55EE4758180B626934570E43430792DF" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Sun\WarmSunLense.xnb" />
+                    </Component>
+                    <Component Id="cmp61B356E5B3DBB29645300C4B6E2F249E" Guid="{DC5EF5C9-696B-49A9-917F-7149E6DDBB96}">
+                        <File Id="filA21C44E076B0CCC284EC7AC6AE847009" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\Sun\Yellow_Sun.xnb" />
+                    </Component>
+                </Directory>
+            </Directory>
+            <Directory Id="dir69874EA6B8902DD91C4CDF02A80CA0D0" Name="SFXContent">
+                <Directory Id="dirB2D086811F214868A0B371CCD7197EBB" Name="Music">
+                    <Component Id="cmp984DA1B07D7799C89E16A535AB3D5BE5" Guid="{E5311849-E948-4DF6-8462-527DDFC30F48}">
+                        <File Id="filC3411CADFD53C1262B2F421D6F9B8C5A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\End Credits.wma" />
+                    </Component>
+                    <Component Id="cmp3242DD7AFE1CFB7B44DE3F381BFF6F66" Guid="{9CC575DE-ADF3-48CF-96D3-641728E8BB03}">
+                        <File Id="fil633AFC0DC8DA4629BBC218158CF1C4CE" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\End Credits.xnb" />
+                    </Component>
+                    <Component Id="cmp6EEC2357062F30A1849DA632B42F8EC8" Guid="{0157F257-72B1-4E0E-A2BD-07D4EFCA72CF}">
+                        <File Id="filC6F0FA5F07CB5FB8E1EBEC5FC82B00B3" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\Game Theme &amp; Menu.wma" />
+                    </Component>
+                    <Component Id="cmp0D033703727BDDF3222D6AF170FF3171" Guid="{A4FCD1FC-F458-4601-B5CB-09927D76A1B1}">
+                        <File Id="fil7154883D192F18D05E2158B43A2B464D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\Game Theme &amp; Menu.xnb" />
+                    </Component>
+                    <Component Id="cmp7C1FE2380BACB2BBE1AA02D1B185639D" Guid="{0FB3D217-853C-4D06-B472-B4434E91E4B6}">
+                        <File Id="filE3700AAEB7155A3DC2458F0DEEED745A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\Selection Menu.wma" />
+                    </Component>
+                    <Component Id="cmpBB9D4CAEB28CE9999C4DBA6DDD24913E" Guid="{903DE948-2159-4FB4-BF3F-5BD51341A663}">
+                        <File Id="fil726F9B31174ED84F055209C4A7CBAC3A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\Selection Menu.xnb" />
+                    </Component>
+                    <Directory Id="dir8A3757A288C9FDBD82CEB7B34DE0703F" Name="ZAsteroids">
+                        <Component Id="cmp833185310D8F8402244A59C8D6A9372F" Guid="{B26D7687-C921-42A0-869F-FAEF81988532}">
+                            <File Id="filCB96361DBA35769BF350B85AC328E4BB" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\ZAsteroids\Blue Danube Intro.wma" />
+                        </Component>
+                        <Component Id="cmpEE26B11FD90286C16C31E199CFA88F0C" Guid="{2C4786F9-82EA-46FC-B5DD-A89DA23E4F81}">
+                            <File Id="filDE0C58E445C0241A808665EE0F16936B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\ZAsteroids\Blue Danube Intro.xnb" />
+                        </Component>
+                        <Component Id="cmp9C24CC804F3E0B32F390AE5E5F483A40" Guid="{91DBC6FB-E28C-47D1-A6F7-78D8BC16F8CB}">
+                            <File Id="fil49688D31A0E55515101D0FC2D214F488" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\ZAsteroids\Blue Danube Loop.wma" />
+                        </Component>
+                        <Component Id="cmpDA52963EBDDD09AD0A89D2BE3E425812" Guid="{B98998A0-8323-4266-8514-AE111B977C11}">
+                            <File Id="fil8FEDF9ADCE4BBD25248412338624BA50" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\Music\ZAsteroids\Blue Danube Loop.xnb" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="dir12CE771562864F5B877C43AC0A5F9EF8" Name="SoundEffects">
+                    <Directory Id="dirC46ED56703363B6884BB54E15970B342" Name="Explosions">
+                        <Component Id="cmpE7E01701B1DB766F864CCCEDC25DC7C1" Guid="{A36A2C31-4F13-47DB-B4FC-48E1C54E5865}">
+                            <File Id="fil128DC1AB0A5ADF51226BDBAAE5E143BC" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Explosions\AsteroidHit.xnb" />
+                        </Component>
+                        <Component Id="cmp19BD6524AD2915DCC7EBC1331265836F" Guid="{5B894FF9-37A2-419F-B0DF-BBC091796D12}">
+                            <File Id="fil5F22709063BF51C0F4B239274BF908E9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Explosions\DebrisExplosion.xnb" />
+                        </Component>
+                        <Component Id="cmp1948656FF43AD9072C8EAC383920E2DB" Guid="{4E375272-4FAE-4D31-B558-272A1EE3B59B}">
+                            <File Id="filB2A8FD692F558626DB8E5E5ADD7D6459" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Explosions\IncendiaryExplosion.xnb" />
+                        </Component>
+                        <Component Id="cmp390376CEC8E06EFED0DF56FC68C72C3C" Guid="{526C6224-C4F3-4D6E-9585-1DF6BEF65EA3}">
+                            <File Id="fil20223D2059776A28D8353CDCDAD096D9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Explosions\IncendiaryExplosionInSpace.xnb" />
+                        </Component>
+                        <Component Id="cmp09C61615884AC8273322CFA0189D71F5" Guid="{D22ACB2C-F81B-4300-A242-56C3AE9A8F0F}">
+                            <File Id="filF0CFCBF7A803FE467D4679A86F971F85" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Explosions\ShockExplosion.xnb" />
+                        </Component>
+                        <Component Id="cmpC2B703DFFB7825918A3DD4FA75A0627F" Guid="{A7D2762A-D2F4-41F5-ADCE-0D537A99C27A}">
+                            <File Id="fil093410D04AAFE0E8EB299D86E3C4DF8A" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Explosions\ShockExplosionInSpace.xnb" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="dirDF473B6C3079EAD6343CB76207913541" Name="MenuSoundFX">
+                        <Component Id="cmpB0EADC81E5B99F3FA1AECCEB10AE2E31" Guid="{F5F244FD-26E6-4EE7-9FB0-16E714AF4C00}">
+                            <File Id="fil25BFD1DB0AB9C17B5E631D4A36FBC3AE" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\MenuSoundFX\MenuClick.xnb" />
+                        </Component>
+                        <Component Id="cmp5F694E9299B139283EA8323FD9196E34" Guid="{996FC3A4-BD90-43A2-AA94-DB11FA6F1EFB}">
+                            <File Id="fil4F089376603F8C15003FE639864A91E7" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\MenuSoundFX\SphereSteam.xnb" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="dir13AB3C617D6B500D2DFAF71A76E45F89" Name="Weapons">
+                        <Component Id="cmpBB051FC0A1613E8E9397B67DA020441B" Guid="{40901F86-5D2A-4077-8082-1B2477578FDD}">
+                            <File Id="filD236A33E5B12725D6D3C3A10649986C9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Weapons\IonCannonLinkNoShoot.xnb" />
+                        </Component>
+                        <Component Id="cmpFB4CA41E85B48E29A0659B353748EF78" Guid="{C169D3C2-FF0D-44AA-8DEA-F7A16E8082F0}">
+                            <File Id="filE033D8B41D16876F25C1B41C0721D222" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Weapons\IonCannonLinkShoot.xnb" />
+                        </Component>
+                        <Component Id="cmpBC09D57ACCABF981D49B92C89CAD8295" Guid="{0DC72141-A433-4811-B0F8-93F6080DF552}">
+                            <File Id="fil83B8FF61578D20D5F384716C2644ED35" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Weapons\IonCannonShoot.xnb" />
+                        </Component>
+                        <Component Id="cmpAAC19CC58E7A49AD5A1B54300E333B7C" Guid="{A82F67F5-54FF-4482-AA59-DD930639FE18}">
+                            <File Id="filC7EC36D1EF167261A472DCB77773E1A9" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Weapons\IonCannonShootShort.xnb" />
+                        </Component>
+                        <Component Id="cmpECD6058A67118974ED95F946D033DAC0" Guid="{83184900-5A12-4817-A425-8EA7CB774320}">
+                            <File Id="fil973BFA6773ADC08D4876E81BB8E0815C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Weapons\LaserSelect.xnb" />
+                        </Component>
+                        <Component Id="cmp544640AC44D455EB957D36494A41AA67" Guid="{537D1838-0ACE-44AE-9144-AEAA92FC99D7}">
+                            <File Id="filAEAC63650A4012F71D29BCB860EC0BA3" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Weapons\LaserShoot.xnb" />
+                        </Component>
+                        <Component Id="cmp23FAA10264979C6400F18DFE90D76528" Guid="{B5F40E0E-1088-4B6F-9692-39EE04ED691D}">
+                            <File Id="filCA9E4FED1305344508767D1218D8C179" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Weapons\Shockwave.xnb" />
+                        </Component>
+                        <Component Id="cmpEDC62252E836011CD977279E6034EC00" Guid="{80D599CD-E2DB-4F1C-8929-C35261DAD8A5}">
+                            <File Id="fil87F1EC9A2483F692E641534D646BFACA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SFXContent\SoundEffects\Weapons\Shockwave2.xnb" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="ZAsteroidsFiles">
+            <ComponentRef Id="cmpB3E4A7DDEAC065AD8D3CCAA73B8578CD" />
+            <ComponentRef Id="cmp0F89F3573888378007DFA95FEE6B82C4" />
+            <ComponentRef Id="cmpAE0686AA57B59F974ACCF797BE8B4210" />
+            <ComponentRef Id="cmpA357D69AF0FF086ECD9255CE53F25F46" />
+            <ComponentRef Id="cmp2E8A6C0B9938EFC5053FFA1682236B40" />
+            <ComponentRef Id="cmpDFB05D9FDE23E77022DC14C813CFAF3B" />
+            <ComponentRef Id="cmp1E7FB58BC8BFD35B7D9E2FFC4C81DEAF" />
+            <ComponentRef Id="cmpD76D1052C222ACE90EEA608C085EA1BC" />
+            <ComponentRef Id="cmpBEBD35B691DB47E9F5F97A7926ED1D0A" />
+            <ComponentRef Id="cmp6A17A3264536E8010E742D990CC912C1" />
+            <ComponentRef Id="cmp0A6A2A9F60045013F48E424F80CA0966" />
+            <ComponentRef Id="cmp53672509BFA3B7A53FCABA62670A80F8" />
+            <ComponentRef Id="cmpF1553A12B25D3F72AC6D88E67289416D" />
+            <ComponentRef Id="cmp1DBD1D0E880194E377AA6E0B48CD55EB" />
+            <ComponentRef Id="cmp1141B678A991607A4FD799B3A9E32C2A" />
+            <ComponentRef Id="cmpC7D4D03B4CB6A98E9213D72063577758" />
+            <ComponentRef Id="cmpF1D34CE405F73D5D0772AD37BBAE9BDE" />
+            <ComponentRef Id="cmpF7F102C0F51ED0BA7BE13BD9B2BED81D" />
+            <ComponentRef Id="cmpA892FF9AA192352617C293B7C6D38EF8" />
+            <ComponentRef Id="cmp55E565DF810DC5EB1A14AEBAA3B45ADE" />
+            <ComponentRef Id="cmpF26B05146FDC49A1C81E4B1E098BD82B" />
+            <ComponentRef Id="cmp24D7007139E5099868C61497A0C492A1" />
+            <ComponentRef Id="cmpF9E439DB05BC9FA9BDD044BD8985A2AA" />
+            <ComponentRef Id="cmp4AEDDFED9D9E7B79B06A015227449F5F" />
+            <ComponentRef Id="cmp3C86DE30D112C2FCBB635E765CBC2891" />
+            <ComponentRef Id="cmpC51CEC55CC927461753FC20405FC02DF" />
+            <ComponentRef Id="cmp1E92BC66ED992BE1CEB7C350ECDDEA91" />
+            <ComponentRef Id="cmp523757AFC3C5D32248BF1CE77E3374B9" />
+            <ComponentRef Id="cmp0A24CBBEB20270DF12E67E41B4B22AA1" />
+            <ComponentRef Id="cmp744F0C3590BFFBA192E197162C1534F1" />
+            <ComponentRef Id="cmp638E74C6685A04A00B876121965B3609" />
+            <ComponentRef Id="cmpB61E14AF17C070FB5BEAE5AA64FA4EE5" />
+            <ComponentRef Id="cmp2589C4A100FBE00ABF99970823935053" />
+            <ComponentRef Id="cmp9A498EA72B03DC917CC610F1F4B0E8D1" />
+            <ComponentRef Id="cmpFEA72C0393F14D12646624BFB2616F89" />
+            <ComponentRef Id="cmpC86AAD6992932924EB6FF34EA684C42B" />
+            <ComponentRef Id="cmp344EF990A8A4CD55F5687EC79AF4BB14" />
+            <ComponentRef Id="cmp61C791B62E3BD949FE3E175D2242D070" />
+            <ComponentRef Id="cmpBDBE6EA0DC17CB708A3C8CC1397FD7A5" />
+            <ComponentRef Id="cmp1808C0B707F637897A4609CDC49BA865" />
+            <ComponentRef Id="cmp60AF16708582F1481CB59C87824EDF11" />
+            <ComponentRef Id="cmp8EE30F5BD5FBB0DA10B8CD6E6F5063F7" />
+            <ComponentRef Id="cmp07988D69631AA93761642112B204E2B8" />
+            <ComponentRef Id="cmpA0C6487E66DF369B54628F5E3E9D34E3" />
+            <ComponentRef Id="cmpDDC61D67F87923D46CE51BD643F700AF" />
+            <ComponentRef Id="cmp58102211A6141C2BB44AB334E5984101" />
+            <ComponentRef Id="cmp5C2E7097AAEEF540F0D96FB428C729F9" />
+            <ComponentRef Id="cmp3799C5E457799B1259A697A2CB5B4FB3" />
+            <ComponentRef Id="cmpEF5641F3DCD393F640B1B63864CE792B" />
+            <ComponentRef Id="cmp3636D75CA491FB6883967D200F4DFC66" />
+            <ComponentRef Id="cmp238743A6D57636CF233DB30730E39825" />
+            <ComponentRef Id="cmpCAA28CB39074854EE7204DEB473EDB0F" />
+            <ComponentRef Id="cmp324C44B9E0596295A5FDA127077E538F" />
+            <ComponentRef Id="cmp24D195603928D35E7E55DF06951B5DFF" />
+            <ComponentRef Id="cmp2105D58F2B9E13143314044B8DB92998" />
+            <ComponentRef Id="cmpEF5A45A337343E46D23D3F52ED15E5F8" />
+            <ComponentRef Id="cmp01FC35DB442232FF3415C02D8498ACFC" />
+            <ComponentRef Id="cmp5EDA6B6B5C0267E2F0DECD7A947C0B35" />
+            <ComponentRef Id="cmpA4EB4E3A877410895D5C1CE0F7C5171C" />
+            <ComponentRef Id="cmp2AE8822F3B61AA577DE5A0C0A8C3A8B7" />
+            <ComponentRef Id="cmp8145D4D849516FB4DD8003540E5C2D2C" />
+            <ComponentRef Id="cmpDF3D15F079DA157E81884EB2901D01A1" />
+            <ComponentRef Id="cmp6723B4A72ACE8F31832BF8359D0F507C" />
+            <ComponentRef Id="cmp554D150C48D428DC75FAE3FD24E3EA11" />
+            <ComponentRef Id="cmp324E741E66F8DA613FC4EBEC2F9390E3" />
+            <ComponentRef Id="cmpC1094B63F31AF21428E313AAE841193C" />
+            <ComponentRef Id="cmpB42F6EF1D8BEA73415784A52BC9C5C71" />
+            <ComponentRef Id="cmp5C1BE109BB215177201DBBFD92E0CB3F" />
+            <ComponentRef Id="cmp38A95A7B4A9E4DFE9C65CBDFAF1DBDAA" />
+            <ComponentRef Id="cmp1CBCB240B4B4B11EFFCC1483A51CBDE8" />
+            <ComponentRef Id="cmpEFD52D44C938D5E5A142C2C4CDE22034" />
+            <ComponentRef Id="cmp11EE10B3A680D18D3BBD0C5D6EBEC348" />
+            <ComponentRef Id="cmp06ABD172AE144B4B922BECE978A0A403" />
+            <ComponentRef Id="cmp31FCECA185C79E981C8A8598A7AC46CB" />
+            <ComponentRef Id="cmp6F045E59503B65F37A92360FEE614324" />
+            <ComponentRef Id="cmp47B9BEBD7F51E96C43D38329F5601DFA" />
+            <ComponentRef Id="cmp32F637C6794EC69D9CAABDE855704CAE" />
+            <ComponentRef Id="cmp00734A7AF68230F5C113BD8BDB8A4FA4" />
+            <ComponentRef Id="cmp6B389BF1B9E00D68C001C45BE96B395B" />
+            <ComponentRef Id="cmpAF867AD2F557F8D4880FD22E1A660FF2" />
+            <ComponentRef Id="cmp12A6E37C4928AEB4EEED61A3007BBFD4" />
+            <ComponentRef Id="cmp3672C1530A7742778ED8C74EA8C57D83" />
+            <ComponentRef Id="cmpF3C38266D75F0AF47FCF6EA64DCB459A" />
+            <ComponentRef Id="cmpF854697576E024D46AE935F8066A2571" />
+            <ComponentRef Id="cmp4EA800D8D6A930B8182E8BD3F04C1A98" />
+            <ComponentRef Id="cmpE90A7E19FB4F2BB1699AEEB84719B420" />
+            <ComponentRef Id="cmpECD0B213A77E577F463E2B6FA4530B30" />
+            <ComponentRef Id="cmp03E0FB34F7B8B0BF2CD0A0B0A8AD5303" />
+            <ComponentRef Id="cmp8A1E0786178C87E49CDCF84D8F7EF0C4" />
+            <ComponentRef Id="cmp2C430C41F74602C335B1FFAD132D3EAA" />
+            <ComponentRef Id="cmpC2DDCE1AFC2411996D6F242BB9D5777F" />
+            <ComponentRef Id="cmpCC7E828D3B56AB21715A7C2C41849CC5" />
+            <ComponentRef Id="cmp61B286B73665EDE8DED949ADDF34F52E" />
+            <ComponentRef Id="cmp3E8F4DAD832EC326869FA50A58225C19" />
+            <ComponentRef Id="cmp935E9322040D64311D29107B1CB109B6" />
+            <ComponentRef Id="cmpB4AF04914BAAE2F4FE3E588D1BEA3762" />
+            <ComponentRef Id="cmpDB05CD7527146B77F50EE07A3FFDA2B5" />
+            <ComponentRef Id="cmpB0D821E029ACCA877219C6C4F80B214C" />
+            <ComponentRef Id="cmp9ECD16C3D080C4698661657C3E8928D0" />
+            <ComponentRef Id="cmpB01FC54A95D875F6AD195EAFD27CD7E7" />
+            <ComponentRef Id="cmp918C279F178E0E9F8ABCF3C7F247B6D7" />
+            <ComponentRef Id="cmpED1B64DC6A32B5511A7FDC5D1CE293CA" />
+            <ComponentRef Id="cmp4E302981525E412E2ACA3DA315121DAC" />
+            <ComponentRef Id="cmp5F2FB66F91EBC7E4261CBB4651D19674" />
+            <ComponentRef Id="cmp7CA2BD0E9C9718D20D383471E9A690C1" />
+            <ComponentRef Id="cmp4DBE8E042065A0079B1F7D7C0857F9D7" />
+            <ComponentRef Id="cmp401BDCFA3C6F65B328FCE6CE1A132ED6" />
+            <ComponentRef Id="cmpDB1AF00FF64250E95FF358DC1B26AAF7" />
+            <ComponentRef Id="cmp9BF8DC58EB61858DD84DDE2C4E486676" />
+            <ComponentRef Id="cmp1D701A5D06FBCBB8E2028C5FD28BEC52" />
+            <ComponentRef Id="cmp13A2EFD0F66E64FA400664549D61B904" />
+            <ComponentRef Id="cmp78D56F85A76CCB5B9DE0B39B89335133" />
+            <ComponentRef Id="cmp7EA7A19BC84D04E266CC866DCC511321" />
+            <ComponentRef Id="cmpD5714142B59FC768C36C1C197A644528" />
+            <ComponentRef Id="cmp1E1898F0993B4C46558F8D2479D2F114" />
+            <ComponentRef Id="cmp44130FF46408B444D50C226B149B355A" />
+            <ComponentRef Id="cmp99A72B2425741CED0CF96309D95360E1" />
+            <ComponentRef Id="cmp0D0E01E2495DFDC1A06C442F6E4E0063" />
+            <ComponentRef Id="cmp268B4EBA907AA27CAC1C93050D3A9BB3" />
+            <ComponentRef Id="cmpF064C834792E6E36057860582854332B" />
+            <ComponentRef Id="cmp237954FF513C94FBB5471758BE518CBA" />
+            <ComponentRef Id="cmpC7F8523D81A3FB7BB5645E6931BB81D2" />
+            <ComponentRef Id="cmp18CDCDF56F11486287BD635750B13E99" />
+            <ComponentRef Id="cmpC1911AB536CA2B03E1F19B54BC02F450" />
+            <ComponentRef Id="cmp140F64F87ED2132E2CCDEB7E6EC0F00A" />
+            <ComponentRef Id="cmp08CEAE2F7FC28CF83926F73FE4758978" />
+            <ComponentRef Id="cmpAF10B36C4BBB2C7577C734226AFDBD84" />
+            <ComponentRef Id="cmpCF3D43F9BFFE4773A96381CDE9996479" />
+            <ComponentRef Id="cmp61690C62D31116DDECD61E1570228D19" />
+            <ComponentRef Id="cmp5B5C9FF8C863BF51B011179886B81A78" />
+            <ComponentRef Id="cmp42426A369BABBB92D8A40180C6141728" />
+            <ComponentRef Id="cmpD686E529497647771496CE863E572574" />
+            <ComponentRef Id="cmp9A92A457DDE5C60EFBC8CF052592F296" />
+            <ComponentRef Id="cmp3D02B58DC67D6447263894A464385282" />
+            <ComponentRef Id="cmpE25413941B1E5338809823D7CF9D2537" />
+            <ComponentRef Id="cmp3F8D11BB1EAE1E0C2AF2C55E8EBEA313" />
+            <ComponentRef Id="cmpB83D73C4865BFA7D98C646B72A720C46" />
+            <ComponentRef Id="cmpB22CB9C11CD2B06C4840F9DB3C6F52DC" />
+            <ComponentRef Id="cmpC209136E0DD7387EBF4EF390AAF53762" />
+            <ComponentRef Id="cmp2332641738640D17A88E85230F8425FB" />
+            <ComponentRef Id="cmp8E5110A501805729D8D223E6A2BD3809" />
+            <ComponentRef Id="cmpA9BA726EA8B2CF1C0B48149E13A172A8" />
+            <ComponentRef Id="cmp7C1218B1769CD599AE58DE0D58699FF4" />
+            <ComponentRef Id="cmpC1F2505BD277B1C8369472BAE28B3619" />
+            <ComponentRef Id="cmpF04EB700E807EF1D2B28DF5F4F0548D4" />
+            <ComponentRef Id="cmp1A9AFA68BD42D901E5A5127B184344B6" />
+            <ComponentRef Id="cmp86C49056E6467107CDF23B7055E6C8B4" />
+            <ComponentRef Id="cmpE33774FB9883014B95618E43647DD29C" />
+            <ComponentRef Id="cmp81589C2166F58BF1622B8357E6A941BC" />
+            <ComponentRef Id="cmpC844AC18725D5C557E66AFA1C1A9C988" />
+            <ComponentRef Id="cmp69C30EDC2269CF250561469B8F5FAE81" />
+            <ComponentRef Id="cmp48716E4B5E925054EB7642E9538B1472" />
+            <ComponentRef Id="cmpE959C52D7E4532E0D24303E43A7FE2FE" />
+            <ComponentRef Id="cmpE380410311AEA1A6E5981ABE5DF16689" />
+            <ComponentRef Id="cmp9333F36CBAF74DCC134FE67052464B4C" />
+            <ComponentRef Id="cmp193ED04BF726AE4A4DA7D36A216F8A84" />
+            <ComponentRef Id="cmpF23F4CF720C3B638C85C08E81C49AABB" />
+            <ComponentRef Id="cmpDFB663DD7477852F5206C0828CE2A910" />
+            <ComponentRef Id="cmpACF3F658081158FE93ADC30438F290FA" />
+            <ComponentRef Id="cmpABADD12F0971AF21EF58768F3AE0E0F1" />
+            <ComponentRef Id="cmp581F0FC86FCA2C25698786215EBC809C" />
+            <ComponentRef Id="cmp2AF887A31D84E61785DD44BC77259095" />
+            <ComponentRef Id="cmpC9CB8D0F347F9A587766D6DE1BB4B205" />
+            <ComponentRef Id="cmpB7A3EFCA99983FA7FE05ECE371E50C44" />
+            <ComponentRef Id="cmp39AB72241B9A02472A5B0A18B37C0925" />
+            <ComponentRef Id="cmpEE928102FFF39C1D40F9F6D613A3C4E9" />
+            <ComponentRef Id="cmp4DF9CA38238980AC879327743AF4F88F" />
+            <ComponentRef Id="cmp04632CD5355D1A051551916E185BFF61" />
+            <ComponentRef Id="cmp724F5373721067D80E07DA7A45802E09" />
+            <ComponentRef Id="cmp9F3CFAFC23D587EFDBEB644B66223C4D" />
+            <ComponentRef Id="cmpE0D65C9E7B90D19394B13FCD215090FB" />
+            <ComponentRef Id="cmpEBC9FDFF9FC1D1E608A5BA1D5319ACCE" />
+            <ComponentRef Id="cmp31DF0FDB41ACE93281885D2A17026AC8" />
+            <ComponentRef Id="cmp4F4EF633237108552D86F916823ADF19" />
+            <ComponentRef Id="cmpA0C762261281826C8A29C595CF447BFD" />
+            <ComponentRef Id="cmpE0BDE34E14325CB8D785DCC79261DC6F" />
+            <ComponentRef Id="cmp446E11F7CA002DA2A125C41F74885E49" />
+            <ComponentRef Id="cmpC14C254341969A28862EEFC395878FEA" />
+            <ComponentRef Id="cmp212728728C77743F430F8B2462138676" />
+            <ComponentRef Id="cmp0ABEA706F8ADB27CA0A60DF9E90C070B" />
+            <ComponentRef Id="cmp2ADB8EDAF080FB2420D92E6487315882" />
+            <ComponentRef Id="cmp5313FAB75AB28B4277888BF41A83B7DE" />
+            <ComponentRef Id="cmpF8CE48751FF78C5E1C488840B3A16F3F" />
+            <ComponentRef Id="cmpD33BDC0B9331FA115056AFA07AB218A9" />
+            <ComponentRef Id="cmpDC9CCC68C8B512C6DD5EB1BCE6CC8F9F" />
+            <ComponentRef Id="cmpDC0A70DE6EE2B6E67DEA3C089D90AAF0" />
+            <ComponentRef Id="cmpCB64523A6F8FB44A13E2246C83EFC4F7" />
+            <ComponentRef Id="cmp48D10F23050A1B33F195754604DD96A4" />
+            <ComponentRef Id="cmp1292533F718D5B6E7E56E536A207005F" />
+            <ComponentRef Id="cmp88E086D2455CB0B8090309414D8B90E7" />
+            <ComponentRef Id="cmp8612FF939BCA84B5AC4B0A0CDF21F0FF" />
+            <ComponentRef Id="cmp66274CD2F59775DAC52469BB58D2AF73" />
+            <ComponentRef Id="cmp8CB08AEA1000B89C369486489C971450" />
+            <ComponentRef Id="cmpB3D1A8BF1F4E39F15109C422B948FF08" />
+            <ComponentRef Id="cmp7B912C073C79D4F4B2A754FC3CD4883F" />
+            <ComponentRef Id="cmp9A1BA8DCFD5FF440EB380F765AB314EC" />
+            <ComponentRef Id="cmp580AFAE3886D87B502E313882DAB2F69" />
+            <ComponentRef Id="cmp691173640AAD470852E7AACD89A0D5BA" />
+            <ComponentRef Id="cmpB65AB22AFE7D561AB4314C8EAAC2C7CC" />
+            <ComponentRef Id="cmpA326C6C2DA1511276186FBEC2A8F8AAB" />
+            <ComponentRef Id="cmp2F965109E793EFCD3D25345593FB040A" />
+            <ComponentRef Id="cmpE6CD49DB385A0121728D09A635D47EBC" />
+            <ComponentRef Id="cmp4CDEC24C39E591B04A4093F78CEBD2C6" />
+            <ComponentRef Id="cmp5E36511EE9B6F9F9C282B4408DDD6AA7" />
+            <ComponentRef Id="cmp5D962356416028EF80EB3B8E1C73EBB4" />
+            <ComponentRef Id="cmp50FBB9F9DC71E660E400F0A8BE012928" />
+            <ComponentRef Id="cmpEEA0E6F862F5AFB54EFF3F982317C6F2" />
+            <ComponentRef Id="cmp76FF1A029ED3278EDBC042D143764CCD" />
+            <ComponentRef Id="cmp097969FED5726C0A651BE9C765A5ECAC" />
+            <ComponentRef Id="cmpBE9137D28058D55955905117FEDA27AB" />
+            <ComponentRef Id="cmp219C355FDE959AD513EC079BC359B58F" />
+            <ComponentRef Id="cmpE29E182BE05BFD7D81F14ACEF6AF4528" />
+            <ComponentRef Id="cmp9839EF8EB3A12C98CF6840E3B95B8A4F" />
+            <ComponentRef Id="cmpACE23E3ACEEB8AE98525F3154598B30E" />
+            <ComponentRef Id="cmp9E749C2157883B834443A308F65A8CCB" />
+            <ComponentRef Id="cmp2E5FE5082E473CFC851CEF227129F2EA" />
+            <ComponentRef Id="cmpE5A06FBCB8D816A8F95D67D46A53205D" />
+            <ComponentRef Id="cmpAC1A5223C8335128C5B203BDFADF6AD3" />
+            <ComponentRef Id="cmp9D24981540C0F2B2C627A4FD9606C9C9" />
+            <ComponentRef Id="cmp5F67B4067E33917665900DFB08B4F383" />
+            <ComponentRef Id="cmp7D27AEA3352392E198B849D7A507F506" />
+            <ComponentRef Id="cmpC9FB7F7981B3CC3BC1AA330894CCBFBA" />
+            <ComponentRef Id="cmp435302C4850123470837C6551756B42B" />
+            <ComponentRef Id="cmp517ADF74618A83F71F402E0F169ACE6A" />
+            <ComponentRef Id="cmpB50E08E2B43C4A8ACBF58F91E22E2511" />
+            <ComponentRef Id="cmpE095D7D0D706A2B71806B2BB18CD2318" />
+            <ComponentRef Id="cmp1332E1B43A6354D4AFF4F9FABF1BA1A9" />
+            <ComponentRef Id="cmp10A30710802CC1485D8BC33E9919EA4C" />
+            <ComponentRef Id="cmp69B38F371D9E9CAA3C4B57CC500A4DFD" />
+            <ComponentRef Id="cmpD719BA184C7260643751FBDF3F513B5E" />
+            <ComponentRef Id="cmpF0855932A136EA93B1FA6A345F05215E" />
+            <ComponentRef Id="cmp5B5429870DED1292A0B5B13514B889C9" />
+            <ComponentRef Id="cmp2B37569E70B66133B7D0C24AB08C2A07" />
+            <ComponentRef Id="cmpC245CE156B33A498D336D04E60D1D126" />
+            <ComponentRef Id="cmpF73142BCEBFCCA39A28682DC17762FAA" />
+            <ComponentRef Id="cmp76259908E36C52B71BC7554019124D12" />
+            <ComponentRef Id="cmp61B356E5B3DBB29645300C4B6E2F249E" />
+            <ComponentRef Id="cmp984DA1B07D7799C89E16A535AB3D5BE5" />
+            <ComponentRef Id="cmp3242DD7AFE1CFB7B44DE3F381BFF6F66" />
+            <ComponentRef Id="cmp6EEC2357062F30A1849DA632B42F8EC8" />
+            <ComponentRef Id="cmp0D033703727BDDF3222D6AF170FF3171" />
+            <ComponentRef Id="cmp7C1FE2380BACB2BBE1AA02D1B185639D" />
+            <ComponentRef Id="cmpBB9D4CAEB28CE9999C4DBA6DDD24913E" />
+            <ComponentRef Id="cmp833185310D8F8402244A59C8D6A9372F" />
+            <ComponentRef Id="cmpEE26B11FD90286C16C31E199CFA88F0C" />
+            <ComponentRef Id="cmp9C24CC804F3E0B32F390AE5E5F483A40" />
+            <ComponentRef Id="cmpDA52963EBDDD09AD0A89D2BE3E425812" />
+            <ComponentRef Id="cmpE7E01701B1DB766F864CCCEDC25DC7C1" />
+            <ComponentRef Id="cmp19BD6524AD2915DCC7EBC1331265836F" />
+            <ComponentRef Id="cmp1948656FF43AD9072C8EAC383920E2DB" />
+            <ComponentRef Id="cmp390376CEC8E06EFED0DF56FC68C72C3C" />
+            <ComponentRef Id="cmp09C61615884AC8273322CFA0189D71F5" />
+            <ComponentRef Id="cmpC2B703DFFB7825918A3DD4FA75A0627F" />
+            <ComponentRef Id="cmpB0EADC81E5B99F3FA1AECCEB10AE2E31" />
+            <ComponentRef Id="cmp5F694E9299B139283EA8323FD9196E34" />
+            <ComponentRef Id="cmpBB051FC0A1613E8E9397B67DA020441B" />
+            <ComponentRef Id="cmpFB4CA41E85B48E29A0659B353748EF78" />
+            <ComponentRef Id="cmpBC09D57ACCABF981D49B92C89CAD8295" />
+            <ComponentRef Id="cmpAAC19CC58E7A49AD5A1B54300E333B7C" />
+            <ComponentRef Id="cmpECD6058A67118974ED95F946D033DAC0" />
+            <ComponentRef Id="cmp544640AC44D455EB957D36494A41AA67" />
+            <ComponentRef Id="cmp23FAA10264979C6400F18DFE90D76528" />
+            <ComponentRef Id="cmpEDC62252E836011CD977279E6034EC00" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>
