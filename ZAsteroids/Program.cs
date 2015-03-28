@@ -13,7 +13,7 @@ namespace ZitaAsteria
             {
                 using (ZAsteroidsGameClass game = new ZAsteroidsGameClass())
                 {
-                    game.Window.Title = "Zita Asteria";
+                    game.Window.Title = "ZAsteroids";
 
                     game.Run();
                 }
@@ -23,7 +23,7 @@ namespace ZitaAsteria
             {
                 using (ZAsteroidsGameClass game = new ZAsteroidsGameClass())
                 {
-                    game.Window.Title = "Zita Asteria";
+                    game.Window.Title = "ZAsteroids";
 
                     game.Run();
                 }
