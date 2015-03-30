@@ -27,6 +27,7 @@ namespace ZitaAsteria
                 return;
             }
             KeyboardState kbState = Keyboard.GetState();
+            GamePadState gamepadState = GamePad.GetState(PlayerIndex.One);
 
             base.Update(gameTime);
 
@@ -41,11 +42,7 @@ namespace ZitaAsteria
             {
                 Weapon.Update(gameTime);
                 Weapon.CheckInput(kbState);
-                //if space is pressed, fire the weapon.
-                if (kbState.IsKeyDown(Keys.Space))
-                    Weapon.PullTrigger();
-                else
-                    Weapon.ReleaseTrigger();
+                Weapon.CheckInput(gamepadState);
             }
 
             //General collision detection

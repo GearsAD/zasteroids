@@ -143,20 +143,9 @@ namespace ZitaAsteria.ContentSections
             beamFlareParticle = gameContentManager.Load<Texture2D>("Effects/Particle Systems/Beam");
 
             // Screen Effect Content
-            auraEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\AuraEffect");
-            scanlineEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\VideoNoise");
-            nightVisionEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\NightVision");
             pitchBlackEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\PitchBlack");
-            grayScaleEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\GrayScale");
             explosionFlashEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\ExplosionFlash");
-            eclipseEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\EclipseEffect");
-            staticNoiseEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\StaticNoise");
-            cameraStaticNoiseEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\CameraStaticNoise");
-            cameraStaticNoiseTexture = gameContentManager.Load<Texture2D>("Effects\\Screen Effects\\CameraNoise");
             fadeInOutEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\FadeInOut");
-            portalShaderEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\Portal");
-            particleFlareEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\ParticleFlareEffect");
-            backgroundGridEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\BackgroundGridEffect");
             motionBlurEffect = gameContentManager.Load<Effect>("Effects\\Screen Effects\\MotionBlurEffect");
 
             //Load the shockwave

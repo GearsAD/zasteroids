@@ -7,6 +7,7 @@ using ZitaAsteria.MenuSystem;
 using Microsoft.Xna.Framework;
 using ZitaAsteria;
 using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Input;
 using ZAsteroids.World.Effects.ExplosionSmoke;
 using ZitaAsteria.MenuSystem.World.Satellite;
 using ZAsteroids.World.HUD;
@@ -105,6 +106,25 @@ namespace ZAsteroids.World.Weapons
             _raySystem.AddChildrenToMenuContainer();
             MenuContainer.CompoundEffects.Add(_raySystem);
             _raySystem.Location3D = MenuContainer.Satellite.Location;
+        }
+
+        public override void CheckInput(KeyboardState keyState)
+        {
+            base.CheckInput(keyState);
+            //if space is pressed, fire the weapon.
+            if (keyState.IsKeyDown(Keys.Space))
+                PullTrigger();
+            else
+                ReleaseTrigger();
+        }
+
+        public override void CheckInput(GamePadState gamePadState)
+        {
+            base.CheckInput(gamePadState);
+            if (gamePadState.Triggers.Right > 0.5f)
+                PullTrigger();
+            else
+                ReleaseTrigger();
         }
 
         /// <summary>

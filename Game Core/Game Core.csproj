@@ -66,8 +66,9 @@
     <XnaCompressContent>True</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DPSF">
-      <HintPath>..\External Resources\DPSF\DPSF.dll</HintPath>
+    <Reference Include="DPSF, Version=2.2.2.0, Culture=neutral, PublicKeyToken=32c832bfa7326ee2, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External References\DPSF\DPSF.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553">
       <Private>False</Private>

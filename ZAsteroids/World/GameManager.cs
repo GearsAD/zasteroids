@@ -142,7 +142,7 @@ namespace ZAsteroids.World
             //Check if the player presses enter, for the state to change.
             if (MenuContainer.MenuSystemScene.CurrentLocation == MenuSceneLocations.ZAsteroidsSpheres)
             {
-                if(keys.IsKeyDown(Keys.Enter))
+                if(keys.IsKeyDown(Keys.Enter) || gamepad.IsButtonDown(Buttons.Start))
                 {
                     //If your SPHERE is still alive, add the time points
                     if(MenuContainer.SpherePlayer.Life > 0)
@@ -153,15 +153,18 @@ namespace ZAsteroids.World
 
             if (GameState == GameStateEnum.Intro)
             {
-                if (keys.IsKeyDown(Keys.Space))
+                if (keys.IsKeyDown(Keys.Space) || gamepad.IsButtonDown(Buttons.Start))
                     HUDProperties.GameManager.SetState(GameStateEnum.AsteroidsMode, true);
             }
 
             //Including the help check.
-            if (keys.IsKeyUp(Keys.F1) && _lastKeyState.IsKeyDown(Keys.F1))
-            {
-                HUDProperties.IsHelpShown = !HUDProperties.IsHelpShown;
-            }
+            if(MenuContainer.MenuSystemScene.CurrentLocation == MenuSceneLocations.IntroLocation)
+                if (
+                    (keys.IsKeyUp(Keys.F1) && _lastKeyState.IsKeyDown(Keys.F1)) || 
+                    gamepad.IsButtonUp(Buttons.A) && _lastGamepadState.IsButtonDown(Buttons.A))
+                {
+                    HUDProperties.IsHelpShown = !HUDProperties.IsHelpShown;
+                }
 
             //Cheat codes!!!
             if (

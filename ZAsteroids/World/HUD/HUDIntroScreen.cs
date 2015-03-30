@@ -66,7 +66,7 @@ namespace ZAsteroids.World.HUD
             LogoInfo.Draw(HUDSpriteBatch);
 
             //Draw the string to the right.
-            string text = "Press Space to begin...";
+            string text = "Press Space or Gamepad 'Start' to begin...";
             HUDSpriteBatch.DrawString(
                 Font,
                 text,
@@ -74,7 +74,7 @@ namespace ZAsteroids.World.HUD
                 WorldContent.hudContent.hudTextColor);
 
             //Draw the string to the right.
-            text = "[F1 for controls]";
+            text = "[F1 or Gamepad 'A' for controls]";
             HUDSpriteBatch.DrawString(
                 WorldContent.fontAL18pt,
                 text,

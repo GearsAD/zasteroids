@@ -65,6 +65,11 @@ namespace ZAsteroids.World.SPHEREs
         /// The last keyboard state.
         /// </summary>
         KeyboardState _lastKeyState;
+
+        /// <summary>
+        /// The last gamepad state.
+        /// </summary>
+        private GamePadState _lastGamePadState;
         #endregion
         public SPHERE()
         {
@@ -179,7 +184,14 @@ namespace ZAsteroids.World.SPHEREs
             }
 
             //Check the keyboard input
-            if (IsControlledByKeyboard && Life > 0) CheckKeyboardInput();
+            if (IsControlledByKeyboard && Life > 0 && MenuContainer.MenuSystemScene.CurrentLocation == MenuSceneLocations.ZAsteroidsSpheres)
+            {
+                GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
+                if (gamePadState.IsConnected)
+                    CheckGamepadInput(gamePadState);
+                else
+                    CheckKeyboardInput();
+            }
         }
 
         private void CheckKeyboardInput()
@@ -205,6 +217,30 @@ namespace ZAsteroids.World.SPHEREs
                 IsUsingDamping = !IsUsingDamping;
             }
             _lastKeyState = keyState;
+        }
+
+        private void CheckGamepadInput(GamePadState gamepadState)
+        {
+            //Check the gamepad.
+            Actuators[0].DutyCycleNorm = (gamepadState.ThumbSticks.Left.X < 0 ? -gamepadState.ThumbSticks.Left.X : 0.0f);
+            Actuators[1].DutyCycleNorm = (gamepadState.ThumbSticks.Left.X > 0 ? gamepadState.ThumbSticks.Left.X : 0.0f);
+            Actuators[2].DutyCycleNorm = (gamepadState.Buttons.RightShoulder == ButtonState.Pressed ? 1.0f : 0.0f);
+            Actuators[3].DutyCycleNorm = (gamepadState.Buttons.LeftShoulder == ButtonState.Pressed ? 1.0f : 0.0f);
+            Actuators[4].DutyCycleNorm = (gamepadState.ThumbSticks.Left.Y > 0 ? gamepadState.ThumbSticks.Left.Y : 0.0f);
+            Actuators[5].DutyCycleNorm = (gamepadState.ThumbSticks.Left.Y < 0 ? -gamepadState.ThumbSticks.Left.Y : 0.0f);
+            //Rotational actuators - these are paired.
+            Actuators[6].DutyCycleNorm = (gamepadState.ThumbSticks.Right.X < 0 ? -gamepadState.ThumbSticks.Right.X : 0.0f);
+            Actuators[7].DutyCycleNorm = (gamepadState.ThumbSticks.Right.X > 0 ? gamepadState.ThumbSticks.Right.X : 0.0f);
+            Actuators[8].DutyCycleNorm = (gamepadState.Triggers.Right > 0 ? gamepadState.Triggers.Right : 0.0f);
+            Actuators[9].DutyCycleNorm = (gamepadState.Triggers.Left > 0 ? gamepadState.Triggers.Left : 0.0f);
+            Actuators[10].DutyCycleNorm = (gamepadState.ThumbSticks.Right.Y < 0 ? -gamepadState.ThumbSticks.Right.Y : 0.0f);
+            Actuators[11].DutyCycleNorm = (gamepadState.ThumbSticks.Right.Y > 0 ? gamepadState.ThumbSticks.Right.Y : 0.0f);
+
+            if (_lastGamePadState.Buttons.Back == ButtonState.Pressed && _lastGamePadState.Buttons.Back == ButtonState.Released)
+            {
+                IsUsingDamping = !IsUsingDamping;
+            }
+            _lastGamePadState = gamepadState;
         }
     }
 }

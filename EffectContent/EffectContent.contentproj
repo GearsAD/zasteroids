@@ -784,41 +784,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Effects\Screen Effects\AuraEffect.fx">
-      <Name>AuraEffect</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Effects\Screen Effects\BackgroundGridEffect.fx">
-      <Name>BackgroundGridEffect</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Effects\Screen Effects\CameraNoise.png">
-      <Name>CameraNoise</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Effects\Screen Effects\CameraStaticNoise.fx">
-      <Name>CameraStaticNoise</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Effects\Screen Effects\EclipseEffect.fx">
-      <Name>EclipseEffect</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Effects\Screen Effects\ExplosionFlash.fx">
       <Name>ExplosionFlash</Name>
       <Importer>EffectImporter</Importer>
@@ -833,22 +798,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Effects\Screen Effects\GrayScale.fx">
-      <Name>GrayScale</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Effects\Screen Effects\MotionBlurEffect.fx">
       <Name>MotionBlurEffect</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Effects\Screen Effects\NightVision.fx">
-      <Name>NightVision</Name>
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
     </Compile>
@@ -868,27 +819,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Effects\Screen Effects\Portal.fx">
-      <Name>Portal</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Effects\Screen Effects\StaticNoise.fx">
-      <Name>StaticNoise</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Effects\Screen Effects\VideoNoise.fx">
-      <Name>VideoNoise</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Effects\ShockWave.fx">
       <Name>ShockWave</Name>
       <Importer>EffectImporter</Importer>
@@ -902,9 +832,7 @@
       <Processor>EffectProcessor</Processor>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Effects\Cloak\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Include="Menu\Buttons\back.png">
       <Name>back</Name>

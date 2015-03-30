@@ -97,7 +97,7 @@ namespace ZAsteroids.World.Upgrades
             //Check if key pressed.
             if(
                 (keyState.IsKeyUp(Keys.Space) && _lastKey.IsKeyDown(Keys.Space)) ||
-                (gameState.IsConnected && gameState.IsButtonUp(Buttons.X) && _lastGamepad.IsButtonDown(Buttons.X)))
+                (gameState.IsConnected && gameState.IsButtonUp(Buttons.A) && _lastGamepad.IsButtonDown(Buttons.A)))
             {
                 for(int i = 0; i < Upgrades.Length; i++)
                 {
