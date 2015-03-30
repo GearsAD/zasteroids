@@ -208,7 +208,7 @@
       <Name>Big_Rock</Name>
       <Importer>XImporter</Importer>
       <Processor>ModelProcessor</Processor>
-      <ProcessorParameters_Scale>100</ProcessorParameters_Scale>
+      <ProcessorParameters_Scale>50</ProcessorParameters_Scale>
     </Compile>
   </ItemGroup>
   <ItemGroup>
