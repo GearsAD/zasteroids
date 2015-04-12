@@ -121,10 +121,11 @@ namespace ZAsteroids.World.Weapons
         public override void CheckInput(GamePadState gamePadState)
         {
             base.CheckInput(gamePadState);
-            if (gamePadState.Triggers.Right > 0.5f)
-                PullTrigger();
-            else
-                ReleaseTrigger();
+            if(gamePadState.IsConnected)
+                if (gamePadState.Triggers.Right > 0.5f)
+                    PullTrigger();
+                else
+                    ReleaseTrigger();
         }
 
         /// <summary>

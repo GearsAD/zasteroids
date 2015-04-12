@@ -2,61 +2,61 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
     <Fragment>
         <DirectoryRef Id="INSTALLLOCATION">
-            <Component Id="cmpB3E4A7DDEAC065AD8D3CCAA73B8578CD" Guid="{EFEEBEE1-2E78-4B46-BD2A-A350403AB9D1}">
+            <Component Id="cmpB3E4A7DDEAC065AD8D3CCAA73B8578CD" Guid="{9F1E4F31-351C-4895-AD07-15ACE03FC923}">
                 <File Id="filF52D740EE776ACB7ACF70C96F6238E8C" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\DPSF.dll" />
             </Component>
-            <Component Id="cmp0F89F3573888378007DFA95FEE6B82C4" Guid="{708A5EA3-34DE-4B27-9D50-ABA7CE60D729}">
+            <Component Id="cmp0F89F3573888378007DFA95FEE6B82C4" Guid="{3F50C97E-3050-42BE-B5E5-501ED6E0C219}">
                 <File Id="filFEB152E72748FEDE52ED6A3BC9A813BF" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\DPSF.xml" />
             </Component>
-            <Component Id="cmpAE0686AA57B59F974ACCF797BE8B4210" Guid="{7E86DC99-69A8-4BDE-BCF9-D5CB64E171F2}">
+            <Component Id="cmpAE0686AA57B59F974ACCF797BE8B4210" Guid="{A01E97A3-A46F-407C-8A84-67253F1F23B8}">
                 <File Id="filE84EC17BBA7436AD7C0CBFB246B396C1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Game Core.dll" />
             </Component>
-            <Component Id="cmpA357D69AF0FF086ECD9255CE53F25F46" Guid="{92C553DD-F46A-4124-B74F-89895E16D242}">
+            <Component Id="cmpA357D69AF0FF086ECD9255CE53F25F46" Guid="{356293CD-6090-4B78-ADFE-0CBD478896EB}">
                 <File Id="fil16963EFBA64A97E44A0A129BEE16ACCA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Game Core.pdb" />
             </Component>
-            <Component Id="cmp2E8A6C0B9938EFC5053FFA1682236B40" Guid="{AF29C4E5-9950-4227-9E17-E384F557AC80}">
+            <Component Id="cmp2E8A6C0B9938EFC5053FFA1682236B40" Guid="{0E53F97D-5159-410B-BC5C-D33E70CD1F2E}">
                 <File Id="filB80DDBF2A58D7307442DB33DC20B2243" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SharedContent.dll" />
             </Component>
-            <Component Id="cmpDFB05D9FDE23E77022DC14C813CFAF3B" Guid="{6D439971-E72C-4C93-9DAF-EC8A32A285BF}">
+            <Component Id="cmpDFB05D9FDE23E77022DC14C813CFAF3B" Guid="{59EEF463-147D-421D-B66B-46FDE9A39486}">
                 <File Id="fil3F5B5B260A80319E4A7D4FCE1E1ED1E7" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\SharedContent.pdb" />
             </Component>
-            <Component Id="cmp1E7FB58BC8BFD35B7D9E2FFC4C81DEAF" Guid="{37BDE3A4-9651-41FE-824A-0E969D5AD3AD}">
+            <Component Id="cmp1E7FB58BC8BFD35B7D9E2FFC4C81DEAF" Guid="{7C14A670-3E82-4198-9639-FD55C183A56F}">
                 <File Id="filB2DB9C586AFD6C74C5968819E4C754D1" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\TemplateCore.dll" />
             </Component>
-            <Component Id="cmpD76D1052C222ACE90EEA608C085EA1BC" Guid="{458CBCA3-C53D-4FC5-B8D8-72814AF5D160}">
+            <Component Id="cmpD76D1052C222ACE90EEA608C085EA1BC" Guid="{22156D56-871C-41BF-BB9E-62BE79BA1D67}">
                 <File Id="fil9ED0F4B6CE59243FD21B6C6BB5564D69" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\TemplateCore.pdb" />
             </Component>
-            <Component Id="cmpBEBD35B691DB47E9F5F97A7926ED1D0A" Guid="{B566EC20-97CF-409B-96E3-3F75714B734D}">
+            <Component Id="cmpBEBD35B691DB47E9F5F97A7926ED1D0A" Guid="{13C6AD86-7185-4D1C-B509-F5BD78238F9F}">
                 <File Id="fil97E638262739A4B1962A4BF53885C381" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Xclna.Xna.Animationx86.dll" />
             </Component>
-            <Component Id="cmp6A17A3264536E8010E742D990CC912C1" Guid="{6FF375A1-210F-4EBF-A79D-12E6BDE0FA95}">
+            <Component Id="cmp6A17A3264536E8010E742D990CC912C1" Guid="{8D8F6E11-2CF2-4984-8393-1C4E652EDE40}">
                 <File Id="filF85A2D6B425B30E845B132FCAB6A2073" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\ZAsteroids.exe" />
             </Component>
-            <Component Id="cmp0A6A2A9F60045013F48E424F80CA0966" Guid="{B425AF7A-44CC-4791-94D2-726419F829B2}">
+            <Component Id="cmp0A6A2A9F60045013F48E424F80CA0966" Guid="{519A013C-4460-493B-8737-2C4978693A5F}">
                 <File Id="filDAF40ACB12B5490329CA290CE065CC7D" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\ZAsteroids.pdb" />
             </Component>
-            <Component Id="cmp53672509BFA3B7A53FCABA62670A80F8" Guid="{8C6DADF5-99F7-4E82-B899-1B1C47505343}">
+            <Component Id="cmp53672509BFA3B7A53FCABA62670A80F8" Guid="{8F8776DA-2C98-4E26-9959-2413C2D85AA8}">
                 <File Id="fil6436D33C6288926E81A7137187795A30" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Zita Asteria v2.ico" />
             </Component>
             <Directory Id="dir0315B7A45FC1A1C4D6B10FCA53856137" Name="BaseContent">
                 <Directory Id="dir347533EA85493F0D284F9E9C3BFC65CD" Name="Fonts">
-                    <Component Id="cmpF1553A12B25D3F72AC6D88E67289416D" Guid="{D8750848-D856-4BBD-9872-47CB137BC2E3}">
+                    <Component Id="cmpF1553A12B25D3F72AC6D88E67289416D" Guid="{48A483AB-B8B3-4DDB-908D-5A4D13ADA808}">
                         <File Id="fil6F5B4F96B0F1E796DB207C3BD10811DA" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague12pt.spritefont" />
                     </Component>
-                    <Component Id="cmp1141B678A991607A4FD799B3A9E32C2A" Guid="{AEAA0814-38A3-4BC7-901B-7028898AEA81}">
+                    <Component Id="cmp1141B678A991607A4FD799B3A9E32C2A" Guid="{E4EFA3E0-6CE7-4BF6-B33A-672E39E352FE}">
                         <File Id="fil4F0CAC43EB172E6FFF455E8FD54DAA94" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague15pt.spritefont" />
                     </Component>
-                    <Component Id="cmpF1D34CE405F73D5D0772AD37BBAE9BDE" Guid="{121A9BBC-4B0F-4ADC-92AD-8ABA3A55D8D2}">
+                    <Component Id="cmpF1D34CE405F73D5D0772AD37BBAE9BDE" Guid="{7C2FD9CA-4000-40B5-94A6-F3163F6B9872}">
                         <File Id="fil57E66474DB2C794357D40F3554753086" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague18pt.spritefont" />
                     </Component>
-                    <Component Id="cmpA892FF9AA192352617C293B7C6D38EF8" Guid="{DC7E0815-1C70-4532-9820-367384603FF6}">
+                    <Component Id="cmpA892FF9AA192352617C293B7C6D38EF8" Guid="{40534593-45FA-4952-9C5A-4A6B334FC67F}">
                         <File Id="fil28B27FB0E028C53141067AD485D85A27" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\BaseContent\Fonts\AlienLeague28pt.spritefont" />
                     </Component>
                 </Directory>
             </Directory>
             <Directory Id="dir2468E12107F9662572B12A2D39C3FB6F" Name="Menu System Content">
                 <Directory Id="dir1C42E778637B06C95D867635F3631E13" Name="SPHEREs">
-                    <Component Id="cmp1332E1B43A6354D4AFF4F9FABF1BA1A9" Guid="{ED9DD711-19D0-4445-81BB-BDB0295CC2A7}">
+                    <Component Id="cmp1332E1B43A6354D4AFF4F9FABF1BA1A9" Guid="{3341DE1D-91C6-4BAC-8EC0-DD1CC27EDCD6}">
                         <File Id="filE7232D183431ABABDEB0D5C831D78C8B" KeyPath="yes" Source="$(env.ZAsteroidsFiles)\Menu System Content\SPHEREs\SPHERES.X" />
                     </Component>
                 </Directory>
