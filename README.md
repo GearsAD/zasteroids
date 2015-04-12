@@ -5,6 +5,8 @@
 Originally written by Sam Claassens and Daniel Gawryjolek.
 Sam - Added in some extra stuff to make it support Oculus Rift DK2 (Runtime version > v0.43). 
 
+Game information: https://semisortedblog.wordpress.com/2015/04/12/introducing-zasteroids-full-game-and-codebase/
+
 --------
 
 A XNA-based twist on the original Asteroids game - it's 3D, Oculus Rift-enabled, and has enough crepuscular rays to blind a small rhino. 

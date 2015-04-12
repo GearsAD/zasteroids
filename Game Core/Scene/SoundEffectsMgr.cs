@@ -31,8 +31,11 @@ namespace ZitaAsteria
             SoundEffect.MasterVolume = WorldContainer.gameConfiguration.SoundVolumeNormalised;
             if (WorldContainer.gameConfiguration.SoundsEnabled)
             {
-                SoundEffectInstance effectInstance = soundEffect.CreateInstance();
-                effectInstance.Play();
+                if (soundEffect != null)
+                {
+                    SoundEffectInstance effectInstance = soundEffect.CreateInstance();
+                    effectInstance.Play();
+                }
             }
         }
 
