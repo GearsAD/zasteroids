@@ -1,4 +1,4 @@
-# ZAsteroids
+# ZAsteroids - Asteroids Game for the Oculus Rift DK2
 
 --------
 
@@ -6,6 +6,8 @@ Originally written by Sam Claassens and Daniel Gawryjolek.
 Sam - Added in some extra stuff to make it support Oculus Rift DK2 (Runtime version > v0.43). 
 
 Game information: https://semisortedblog.wordpress.com/2015/04/12/introducing-zasteroids-full-game-and-codebase/
+
+[![ZAsteroidcs](https://i3.ytimg.com/vi/n-yydtyzfAg/maxresdefault.jpg)](https://www.youtube.com/watch?v=n-yydtyzfAg)
 
 --------
 
